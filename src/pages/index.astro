@@ -1,4 +1,10 @@
 ---
+import FeaturesWithHeading from "../components/Bento";
+import Header from "../components/Header";
+import Hero from "../components/Hero";
+import { FloatingNav } from "../components/ui/floating-navbar";
+import { navItems } from "../data";
+
 
 ---
 
@@ -10,7 +16,12 @@
 		<meta name="generator" content={Astro.generator} />
 		<title>Astro</title>
 	</head>
-	<body>
-		<h1>Astro</h1>
+	<body class="bg-[#F5F8FF]">
+		<main class="mx-auto max-w-6xl">
+			<FloatingNav navItems={navItems} client:load/>
+			<Header />
+			<Hero/>
+			<FeaturesWithHeading />
+		</main>
 	</body>
 </html>
