@@ -21,7 +21,7 @@ const Hero = () => {
             <h1 className="text-4xl font-bold tracking-tight text-[#0c1e1e] sm:text-6xl">
                 Supercharge your Business development!
             </h1>
-            <p className="mt-6 text-lg leading-8 text-gray-600">
+            <p className="mt-6 text-lg leading-8 text-[#42ba5e]">
             Empowering Your Digital Presence with Innovative Design and Robust Solutions.
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">

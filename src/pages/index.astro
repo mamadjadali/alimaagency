@@ -1,7 +1,10 @@
 ---
 import FeaturesWithHeading from "../components/Bento";
+import Footer from "../components/Footer";
+import Gradient from "../components/Gradient";
 import Header from "../components/Header";
 import Hero from "../components/Hero";
+import { StickyScrollRevealDemo } from "../components/StickyScroll";
 import { FloatingNav } from "../components/ui/floating-navbar";
 import { HeroScrollDemo } from "../components/UnleashScroll";
 import { navItems } from "../data";
@@ -24,6 +27,8 @@ import { navItems } from "../data";
 			<Hero/>
 			<FeaturesWithHeading />
 			<HeroScrollDemo client:load/>
+			<StickyScrollRevealDemo client:load/>
+			<Footer />
 		</main>
 	</body>
 </html>
