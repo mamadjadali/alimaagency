@@ -7,7 +7,7 @@ const Hero = () => {
   return (
     <>
     <Aword className='absolute max-w-xs sm:max-w-7xl inset-0 z-0 m-auto blur-xl'/>
-    <div className="relative isolate px-6 sm:pt-14 pt-48 lg:px-8">
+    <div className="relative isolate px-6 sm:pt-6 pt-48 lg:px-8">
         <div className="relative z-10 mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
           <div className="hidden sm:mb-8 sm:flex sm:justify-center">
           <button className="relative inline-flex h-8 overflow-hidden rounded-full p-[1px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50">
@@ -21,9 +21,9 @@ const Hero = () => {
             <h1 className="text-4xl font-bold tracking-tight text-[#0c1e1e] sm:text-6xl">
                 Supercharge your Business development!
             </h1>
-            <p className="mt-6 text-lg leading-8 text-[#42ba5e]">
+            {/* <p className="mt-6 text-lg leading-8 text-[#42ba5e]">
             Empowering Your Digital Presence with Innovative Design and Robust Solutions.
-            </p>
+            </p> */}
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <a href='#'>
                 <NeubrutalismButton label='Get Started'/>

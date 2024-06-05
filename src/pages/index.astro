@@ -4,6 +4,7 @@ import Footer from "../components/Footer";
 import Gradient from "../components/Gradient";
 import Header from "../components/Header";
 import Hero from "../components/Hero";
+import NavBar from "../components/NavBar";
 import { StickyScrollRevealDemo } from "../components/StickyScroll";
 import { FloatingNav } from "../components/ui/floating-navbar";
 import { HeroScrollDemo } from "../components/UnleashScroll";
@@ -22,7 +23,7 @@ import { navItems } from "../data/index"
 	<body class="bg-[#F5F8FF]">
 		<main class="mx-auto max-w-6xl">
 			<FloatingNav navItems={navItems} client:load/>
-			<Header />
+			<NavBar client:load/>
 			<Hero/>
 			<FeaturesWithHeading />
 			<HeroScrollDemo client:load/>
