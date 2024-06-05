@@ -131,7 +131,7 @@ const FeaturesGrid = () => {
 
 const FeaturesWithHeading = () => {
   return (
-    <div className="my-20 py-32 flex w-full flex-col items-center justify-center">
+    <div className="my-20 pt-32 flex w-full flex-col items-center justify-center">
       <h1 className="mb-3 max-w-3xl text-center text-2xl font-bold tracking-tighter text-[#0c1e1e] md:text-5xl">
         What we Do ??
       </h1>
