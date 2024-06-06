@@ -25,7 +25,7 @@ const navigation = {
 
 const Footer = () => {
   return (
-    <div className='w-full rounded-2xl bg-white sm:mb-20 p-14 drop-shadow-2xl'>
+    <div className='w-full rounded-2xl bg-white sm:mb-20 p-10 drop-shadow-2xl'>
         <footer
       aria-labelledby="footer-heading"
       className="font-inter w-full max-w-5xl"

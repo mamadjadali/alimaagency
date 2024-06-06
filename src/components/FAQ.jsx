@@ -1,6 +1,8 @@
 
 const FAQ = () => {
   return (
+    <>
+    <img className="hidden md:block absolute z-0 pointer-events-none md:opacity-30 md:-left-48 md:mt-36 lg:-left-36 lg:mt-48 lg:opacity-80 w-[550px]" src="/spin.png"/>
     <div class="max-w-[85rem] mb-32 px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
     {/* <!-- Grid --> */}
     <div class="grid md:grid-cols-5 gap-10">
@@ -99,6 +101,7 @@ const FAQ = () => {
     </div>
     {/* <!-- End Grid --> */}
     </div>
+    </>
   )
 }
 
