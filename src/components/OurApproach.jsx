@@ -36,7 +36,7 @@ const OurApproach = () => {
                 {/* Icon */}
                 <div class="relative last:after:hidden after:absolute after:top-8 after:bottom-0 after:start-4 after:w-px after:-translate-x-[0.5px] after:bg-neutral-800">
                     <div class="relative z-10 size-8 flex justify-center items-center">
-                    <span class="flex flex-shrink-0 justify-center items-center size-8 border border-neutral-800 text-blue-500 font-semibold text-xs uppercase rounded-full">
+                    <span class="flex flex-shrink-0 justify-center items-center size-8 border-2 border-neutral-600 text-blue-500 font-semibold text-base uppercase rounded-full">
                         1
                     </span>
                     </div>
@@ -59,7 +59,7 @@ const OurApproach = () => {
                 {/* Icon */}
                 <div class="relative last:after:hidden after:absolute after:top-8 after:bottom-0 after:start-4 after:w-px after:-translate-x-[0.5px] after:bg-neutral-800">
                     <div class="relative z-10 size-8 flex justify-center items-center">
-                    <span class="flex flex-shrink-0 justify-center items-center size-8 border border-neutral-800 text-blue-500 font-semibold text-xs uppercase rounded-full">
+                    <span class="flex flex-shrink-0 justify-center items-center size-8 border-2 border-neutral-600 text-blue-500 font-semibold text-base uppercase rounded-full">
                         2
                     </span>
                     </div>
@@ -82,7 +82,7 @@ const OurApproach = () => {
                 {/* Icon */}
                 <div class="relative last:after:hidden after:absolute after:top-8 after:bottom-0 after:start-4 after:w-px after:-translate-x-[0.5px] after:bg-neutral-800">
                     <div class="relative z-10 size-8 flex justify-center items-center">
-                    <span class="flex flex-shrink-0 justify-center items-center size-8 border border-neutral-800 text-blue-500 font-semibold text-xs uppercase rounded-full">
+                    <span class="flex flex-shrink-0 justify-center items-center size-8 border-2 border-neutral-600 text-blue-500 font-semibold text-base uppercase rounded-full">
                         3
                     </span>
                     </div>
@@ -105,7 +105,7 @@ const OurApproach = () => {
                 {/* Icon */}
                 <div class="relative last:after:hidden after:absolute after:top-8 after:bottom-0 after:start-4 after:w-px after:-translate-x-[0.5px] after:bg-neutral-800">
                     <div class="relative z-10 size-8 flex justify-center items-center">
-                    <span class="flex flex-shrink-0 justify-center items-center size-8 border border-neutral-800 text-blue-500 font-semibold text-xs uppercase rounded-full">
+                    <span class="flex flex-shrink-0 justify-center items-center size-8 border-2 border-neutral-600 text-blue-500 font-semibold text-base uppercase rounded-full">
                         4
                     </span>
                     </div>
