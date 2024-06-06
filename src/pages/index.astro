@@ -1,5 +1,6 @@
 ---
 import FeaturesWithHeading from "../components/Bento";
+import FAQ from "../components/FAQ";
 import Footer from "../components/Footer";
 import Hero from "../components/Hero";
 import NavBar from "../components/NavBar";
@@ -26,7 +27,9 @@ import { navItems } from "../data/index";
 			<FeaturesWithHeading />
 			<HeroScrollDemo client:load/>
 			<OurApproach/>
+			<FAQ client:load/>
 			<Footer />
 		</main>
+		<script src="../../node_modules/preline/dist/preline.js"></script>
 	</body>
 </html>
