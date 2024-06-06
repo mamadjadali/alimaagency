@@ -1,7 +1,5 @@
-import React from 'react'
-import NeubrutalismButton from './ui/NeubrutalismButton'
 import Aword from './Aword'
-
+import NeubrutalismButton from './ui/NeubrutalismButton'
 
 const Hero = () => {
   return (
@@ -32,6 +30,7 @@ const Hero = () => {
           </div>
         </div>
         </div>
+        
         </>
   )
 }

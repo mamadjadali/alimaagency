@@ -1,58 +1,5 @@
-import { Sparkles, Code, Palette, Clock, Command, Feather } from 'lucide-react'
-import {Advertising, Analysis, Branding, Content, Marketing, WebDev} from '../assets/BentoIcons'
-// interface Feature {
-//   id: number
-//   name: string
-//   description: string
-//   icon: JSX.Element
-// }
+import { Advertising, Analysis, Branding, Content, Marketing, WebDev } from '../assets/BentoIcons'
 
-const iconSize = 18
-
-// const FeaturesData: Feature[] = [
-//   {
-//     id: 1,
-//     name: 'Web Development',
-//     description:
-//       'SyntaxUI components are designed to be intuitive and easy to use, even for beginners.',
-//     icon: <Sparkles size={iconSize} />,
-//   },
-//   {
-//     id: 2,
-//     name: 'Marketing',
-//     description:
-//       'Customize the look and feel of SyntaxUI components to match your brand and design.',
-//     icon: <Palette size={iconSize} />,
-//   },
-//   {
-//     id: 3,
-//     name: 'Content',
-//     description:
-//       'SyntaxUI is built with developers in mind, providing a clean and consistent API.',
-//     icon: <Code size={iconSize} />,
-//   },
-//   {
-//     id: 4,
-//     name: 'Analysis & Report',
-//     description:
-//       'SyntaxUI components are designed to be responsive and work seamlessly across devices.',
-//     icon: <Feather size={iconSize} />,
-//   },
-//   {
-//     id: 5,
-//     name: 'Branding',
-//     description:
-//       'SyntaxUI prioritizes accessibility, ensuring that your components are usable by everyone.',
-//     icon: <Command size={iconSize} />,
-//   },
-//   {
-//     id: 6,
-//     name: 'Advertising',
-//     description:
-//       'SyntaxUI is actively maintained and regularly updated with new features and improvements.',
-//     icon: <Clock size={iconSize} />,
-//   },
-// ]
 
 const FeaturesGrid = () => {
   return (
