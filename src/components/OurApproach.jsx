@@ -2,6 +2,8 @@ import React from 'react'
 
 const OurApproach = () => {
   return (
+    <>
+    <img className="hidden lg:block absolute z-0 pointer-events-none right-0 lg:mt-[36rem] lg:opacity-100 w-[550px]" src="/pitch.png"/>
         <div class="mb-32">
         {/* Approach */}
         <div class="max-w-5xl px-4 xl:px-0 py-10 lg:pt-20 lg:pb-20 mx-auto">
@@ -131,6 +133,7 @@ const OurApproach = () => {
             {/* End Grid */}
         </div>
         </div>
+    </>
   )
 }
 
