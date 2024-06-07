@@ -17,7 +17,7 @@ const OurApproach = () => {
             {/* Grid */}
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 lg:items-center">
             <div class="aspect-w-16 aspect-h-9 lg:aspect-none">
-                <img class="w-full object-cover rounded-xl" src="/temp.avif" alt="Image Description"/>
+                <img class="w-full object-cover rounded-xl" src="/MacBook.png" alt="Image Description"/>
             </div>
             {/* End Col */}
 
