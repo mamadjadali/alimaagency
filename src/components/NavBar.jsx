@@ -76,22 +76,22 @@ export default function NavBar() {
               leaveFrom="opacity-100 translate-y-0"
               leaveTo="opacity-0 translate-y-1"
             >
-              <PopoverPanel className="absolute -left-8 top-full z-10 mt-3 w-screen max-w-md overflow-hidden rounded-3xl bg-white shadow-lg ring-1 ring-gray-900/5">
+              <PopoverPanel className="absolute -left-8 top-full z-10 mt-3 w-screen max-w-md overflow-hidden rounded-3xl bg-[#f3f5f4] shadow-lg ring-1 ring-gray-900/5">
                 <div className="p-4">
                   {products.map((item) => (
                     <div
                       key={item.name}
-                      className="group relative flex items-center gap-x-6 rounded-lg p-4 text-sm leading-6 hover:bg-[#f5f8ff]"
+                      className="group relative flex items-center gap-x-6 rounded-lg p-4 text-sm leading-6 duration-300 hover:bg-[#426859]"
                     >
                       <div className="flex h-11 w-11 flex-none items-center justify-center rounded-lg bg-[#f5f8ff] group-hover:bg-white">
                         <item.icon className="h-6 w-6 text-gray-600 group-hover:text-blue-500" aria-hidden="true" />
                       </div>
                       <div className="flex-auto">
-                        <a href={item.href} className="block font-semibold text-[#0c1e1e]">
+                        <a href={item.href} className="block font-semibold text-[#0c1e1e] duration-300 hover:text-[#f3f5f4]">
                           {item.name}
                           <span className="absolute inset-0" />
                         </a>
-                        <p className="mt-1 text-gray-600">{item.description}</p>
+                        <p className="mt-1 text-gray-600 duration-300 hover:text-[#f3f5f4]">{item.description}</p>
                       </div>
                     </div>
                   ))}
