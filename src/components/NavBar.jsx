@@ -48,7 +48,7 @@ export default function NavBar() {
         <div className="flex lg:flex-1">
           <a href="#" className="-m-1.5 p-1.5">
             <span className="sr-only">Alima</span>
-            <img className="h-8 w-auto" src="/Logo-dark-green.svg" alt="logo" />
+            <img className="hidden md:block h-8 w-auto" src="/Logo-dark-green.svg" alt="logo" />
           </a>
         </div>
         <div className="flex lg:hidden">
@@ -58,7 +58,7 @@ export default function NavBar() {
             onClick={() => setMobileMenuOpen(true)}
           >
             <span className="sr-only">Open main menu</span>
-            <Bars3Icon className="h-6 w-6" aria-hidden="true" />
+            <Bars3Icon className="h-6 w-6 text-[#f3f5f4]" aria-hidden="true" />
           </button>
         </div>
         <PopoverGroup className="hidden lg:flex lg:gap-x-12">
