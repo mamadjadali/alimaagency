@@ -123,8 +123,8 @@ export default function NavBar() {
           </a>
         </PopoverGroup>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-        <button className="group/button rounded-lg bg-[#0c1e1e] text-[#0c1e1e]">
-            <span className="block -translate-x-1 -translate-y-1 rounded-lg border-2 border-[#222222] bg-[#70fe90] px-4 py-1 text-sm font-bold tracking-tight transition-all group-hover/button:-translate-y-2 group-active/button:translate-x-0 group-active/button:translate-y-0">
+        <button className="group/button rounded-lg bg-[#f3f5f4] text-[#0c1e1e]">
+            <span className="block -translate-x-1 -translate-y-1 rounded-lg border-2 border-[#222222] bg-[#70fe90] px-4 py-1 text-sm font-bold tracking-tight transition-all group-hover/button:-translate-x-2 group-hover/button:-translate-y-2 group-active/button:translate-x-0 group-active/button:translate-y-0">
                 Talk to us
             </span>
          </button>
