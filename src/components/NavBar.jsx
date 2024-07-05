@@ -63,7 +63,7 @@ export default function NavBar() {
         </div>
         <PopoverGroup className="hidden lg:flex lg:gap-x-12">
           <Popover className="relative">
-            <PopoverButton className="flex items-center gap-x-1 text-base font-semibold leading-6 outline-none text-gray-900">
+            <PopoverButton className="flex items-center gap-x-1 text-base font-semibold leading-6 outline-none text-[#f3f5f4]">
               Service
               <ChevronDownIcon className="h-5 w-5 flex-none text-gray-400" aria-hidden="true" />
             </PopoverButton>
@@ -112,13 +112,13 @@ export default function NavBar() {
             </Transition>
           </Popover>
 
-          <a href="#" className="text-base font-semibold leading-6 text-gray-900">
+          <a href="#" className="text-base font-semibold leading-6 text-[#f3f5f4]">
             Features
           </a>
-          <a href="#" className="text-base font-semibold leading-6 text-gray-900">
+          <a href="#" className="text-base font-semibold leading-6 text-[#f3f5f4]">
             How it Work's
           </a>
-          <a href="#" className="text-base font-semibold leading-6 text-gray-900">
+          <a href="#" className="text-base font-semibold leading-6 text-[#f3f5f4]">
             Contact
           </a>
         </PopoverGroup>
