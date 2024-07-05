@@ -62,7 +62,12 @@ const FeaturesGrid = () => {
               From concept to launch, we create stunning, user-centric websites that elevate your brand and engage your audience.
               </div>
               </div>
-              <div className='rounded-md bg-slate-400 w-72 lg:w-72 h-48 lg:h-auto'></div>
+              <div className='rounded-md bg-[#0c1e1e] w-72 lg:w-72 h-48 lg:h-auto overflow-hidden'>
+                <img
+                src='/hi.svg'
+                className='object-fill h-full'
+                />
+              </div>
             </div>
             <div className="col-span-2 sm:col-span-1 py-8 width-fit p-4 text-left bg-[#dedbcc] backdrop-blur-2xl rounded-lg">
               <div className="mb-2 w-fit rounded-lg bg-[#f3f5f4] p-2 text-center text-[#0c1e1e] ">
