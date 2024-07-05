@@ -1,14 +1,12 @@
 ---
 import FeaturesWithHeading from "../components/Bento";
 import FAQ from "../components/FAQ";
+import FloatingNavDemo from "../components/Float";
 import Footer from "../components/Footer";
 import Hero from "../components/Hero";
 import NavBar from "../components/NavBar";
 import OurApproach from "../components/OurApproach";
-import { FloatingNav } from "../components/ui/floating-navbar";
 import { HeroScrollDemo } from "../components/UnleashScroll";
-import { navItems } from "../data/index";
-import Services from "../components/Usage"
 ---
 
 <html lang="en">
@@ -21,7 +19,7 @@ import Services from "../components/Usage"
 	</head>
 	<body class="bg-[#0c1e1e]">
 		<main class="mx-auto max-w-6xl">
-			<FloatingNav navItems={navItems} client:load/>
+			<FloatingNavDemo client:load/>
 			<NavBar client:load/>
 			<Hero client:load/>
 			<FeaturesWithHeading />
