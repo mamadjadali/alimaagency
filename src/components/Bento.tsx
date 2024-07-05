@@ -48,7 +48,12 @@ const FeaturesGrid = () => {
               <div className="font-regular max-w-sm text-xs text-[#426859]">
               From concept to launch, we create stunning, user-centric websites that elevate your brand and engage your audience.
               </div>
-              <div className='mt-6  rounded-md bg-slate-400 w-full h-48 md:h-[60%]'></div>
+              <div className='mt-6  rounded-md bg-[#0c1e1e] w-full h-48 md:h-[60%]'>
+              <img
+                src='/chart.svg'
+                className='object-contain h-full'
+                />
+              </div>
             </div>
             <div className="col-span-2 md:col-span-1 lg:col-span-2 md:h-auto flex py-8 width-fit bg-[#dedbcc] backdrop-blur-2xl p-4 text-left rounded-lg">
               <div>
