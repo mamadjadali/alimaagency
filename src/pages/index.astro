@@ -2,12 +2,11 @@
 import FeaturesWithHeading from "../components/Bento";
 import FAQ from "../components/FAQ";
 import FloatingNavDemo from "../components/Float";
-import Footer from "../components/Footer";
 import Hero from "../components/Hero";
-import NavBar from "../components/NavBar";
 import OurApproach from "../components/OurApproach";
 import { HeroScrollDemo } from "../components/UnleashScroll";
 import Whofor from "../components/Whofor.astro";
+import Layout from "../layouts/Layout.astro";
 ---
 
 <html lang="en">
@@ -20,8 +19,9 @@ import Whofor from "../components/Whofor.astro";
 	</head>
 	<body class="bg-[#0c1e1e]">
 		<main class="mx-auto max-w-6xl">
+			<Layout>
 			<FloatingNavDemo client:load/>
-			<NavBar client:load/>
+			<!-- <NavBar client:load/> -->
 			<Hero client:load/>
 			<FeaturesWithHeading />
 			<Whofor/>
@@ -29,7 +29,8 @@ import Whofor from "../components/Whofor.astro";
 			<!-- <Services /> -->
 			<OurApproach/>
 			<FAQ client:load/>
-			<Footer />
+			<!-- <Footer /> -->
+			</Layout>
 		</main>
 		<script src="../../node_modules/preline/dist/preline.js"></script>
 	</body>
