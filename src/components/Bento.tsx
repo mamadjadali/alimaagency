@@ -6,47 +6,47 @@ const FeaturesGrid = () => {
     <div>
       <div className="mt-8 grid w-full grid-cols-1 p-2 gap-8 md:grid-cols-2 lg:grid-cols-4">
             <div className="col-span-2 sm:col-span-1 py-8 width-fit p-4 text-left bg-[#dedbcc] backdrop-blur-2xl rounded-lg">
-              <div className="mb-2 w-fit rounded-lg bg-[#f3f5f4] p-2 text-center text-[#0c1e1e] ">
-                <WebDev/>
+              <div className="mb-2 w-1 rounded-md bg-[#008afc] p-2 text-center text-[#0c1e1e] ">
+                {/* <WebDev/> */}
               </div>
               <div className="text-md mb-3 font-semibold text-[#0c1e1e]">
-                Web Development
+                Web Design & Development
               </div>
-              <div className="font-regular max-w-sm text-xs text-[#426859]">
-              From concept to launch, we create stunning, user-centric websites that elevate your brand and engage your audience.
+              <div className="font-normal max-w-sm text-sm text-[#426859]">
+              Every web design project stands out as unique, receiving unparalleled attention and care.
               </div>
             </div>
             <div className="col-span-2 sm:col-span-1 py-8 width-fit p-4 text-left bg-[#dedbcc] backdrop-blur-2xl rounded-lg">
-              <div className="mb-2 w-fit rounded-lg bg-[#f3f5f4] p-2 text-center text-[#0c1e1e] ">
-                <Marketing />
+              <div className="mb-2 w-1 rounded-md bg-[#1cb96e] p-2 text-center text-[#0c1e1e] ">
+                {/* <Marketing /> */}
               </div>
               <div className="text-md mb-3 font-semibold text-[#0c1e1e]">
-                Marketing
+                Marketing & Consultation
               </div>
-              <div className="font-regular max-w-sm text-xs text-[#426859]">
-              From concept to launch, we create stunning, user-centric websites that elevate your brand and engage your audience.
+              <div className="font-regular max-w-sm text-sm text-[#426859]">
+              We assist you in finding tailored solutions for your business through personalized one-on-one sessions.
               </div>
             </div>
             <div className="col-span-2 sm:col-span-1 py-8 width-fit p-4 text-left bg-[#dedbcc] backdrop-blur-2xl rounded-lg">
-              <div className="mb-2 w-fit rounded-lg bg-[#f3f5f4] p-2 text-center text-[#0c1e1e] ">
-                <Content/>
+              <div className="mb-2 w-1 rounded-md bg-[#ff1ba4] p-2 text-center text-[#0c1e1e] ">
+                {/* <Content/> */}
               </div>
               <div className="text-md mb-3 font-semibold text-[#0c1e1e]">
               Content
               </div>
-              <div className="font-regular max-w-sm text-xs text-[#426859]">
-              From concept to launch, we create stunning, user-centric websites that elevate your brand and engage your audience.
+              <div className="font-regular max-w-sm text-sm text-[#426859]">
+              We create unique content, adding value, boosting organic reach, and engaging your target audience.
               </div>
             </div>
             <div className="col-span-2 h-96 md:h-auto sm:col-span-1 py-8 row-span-2 width-fit bg-[#dedbcc] backdrop-blur-2xl p-4 text-left rounded-lg">
-              <div className="mb-2 w-fit rounded-lg bg-[#f3f5f4] p-2 text-center text-[#0c1e1e] ">
-                <Analysis/>
+              <div className="mb-2 w-1 rounded-md bg-[#10ffc6] p-2 text-center text-[#0c1e1e] ">
+                {/* <Analysis/> */}
               </div>
               <div className="text-md mb-3 font-semibold text-[#0c1e1e]">
               Analysis & Report
               </div>
-              <div className="font-regular max-w-sm text-xs text-[#426859]">
-              From concept to launch, we create stunning, user-centric websites that elevate your brand and engage your audience.
+              <div className="font-regular max-w-sm text-sm text-[#426859]">
+              Our expert strategists optimize your website to climb the rankings, attract your target audience, and increase engagement.
               </div>
               <div className='mt-6  rounded-md bg-[#0c1e1e] w-full h-48 md:h-[60%]'>
               <img
@@ -57,15 +57,14 @@ const FeaturesGrid = () => {
             </div>
             <div className="col-span-2 md:col-span-1 lg:col-span-2 md:h-auto flex py-8 width-fit bg-[#dedbcc] backdrop-blur-2xl p-4 text-left rounded-lg">
               <div>
-              <div className="mb-2 w-fit rounded-lg bg-[#f3f5f4] p-2 text-center text-[#0c1e1e] ">
-                <Branding/>
+              <div className="mb-2 w-1 rounded-md bg-[#5200ff] p-2 text-center text-[#0c1e1e] ">
+                {/* <Branding/> */}
               </div>
               <div className="text-md mb-3 font-semibold text-[#0c1e1e]">
-              Branding
+              Visual Branding & Strategy
               </div>
-              <div className="font-regular max-w-sm text-xs text-[#426859]">
-              From concept to launch, we create stunning, user-centric websites that elevate your brand and engage your audience.
-              </div>
+              <div className="font-regular max-w-sm text-sm text-[#426859]">
+              our brand research and strategy services form the cornerstone of effective branding. We conduct in-depth analysis of competitors, market trends, and target audiences to inform decision-making.              </div>
               </div>
               <div className='rounded-md bg-[#0c1e1e] w-72 lg:w-72 h-48 lg:h-auto overflow-hidden'>
                 <img
@@ -75,15 +74,14 @@ const FeaturesGrid = () => {
               </div>
             </div>
             <div className="col-span-2 sm:col-span-1 py-8 width-fit p-4 text-left bg-[#dedbcc] backdrop-blur-2xl rounded-lg">
-              <div className="mb-2 w-fit rounded-lg bg-[#f3f5f4] p-2 text-center text-[#0c1e1e] ">
-                <Advertising/>
+              <div className="mb-2 w-1 rounded-md bg-[#ffa500] p-2 text-center text-[#0c1e1e] ">
+                {/* <Advertising/> */}
               </div>
               <div className="text-md mb-3 font-semibold text-[#0c1e1e]">
               Advertising
               </div>
-              <div className="font-regular max-w-sm text-xs text-[#426859]">
-              From concept to launch, we create stunning, user-centric websites that elevate your brand and engage your audience.
-              </div>
+              <div className="font-regular max-w-sm text-sm text-[#426859]">
+              our expert team crafts cohesive and impactful advertising that resonates with your audience. Let us define your business across all channels, ensuring memorable and distinct visual branding for success.              </div>
             </div>
       </div>
     </div>
