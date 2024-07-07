@@ -1,37 +1,54 @@
+import { RiInstagramFill } from "react-icons/ri";
+import { BsTelegram } from "react-icons/bs";
+import { IoLogoWhatsapp } from "react-icons/io";
+import { FaXTwitter } from "react-icons/fa6";
+import { FaLinkedinIn } from "react-icons/fa";
 
 const navigation = {
     connect: [
-      { name: 'Book Meeting', href: '' },
       {
-        name: 'Twitter',
+        name: 'Home',
         href: 'https://twitter.com/justansub',
       },
       {
-        name: 'Github',
+        name: 'Our Work',
+        href: 'https://twitter.com/justansub',
+      },
+      {
+        name: 'About',
         href: 'https://www.youtube.com/@SpeedyBrand-SEO',
       },
       {
-        name: 'LinkedIn',
+        name: 'Contact',
         href: 'https://www.linkedin.com/company/speedy-brand-inc/',
       },
+      { name: 'Book Meeting', href: '' },
     ],
     company: [
-      { name: 'Blogs', href: '/' },
-      { name: 'Pricing', href: '/' },
-      { name: 'Affiliate Partner', href: '/' },
-      { name: 'AI For Enterprise', href: '/' },
+      { name: 'Blog', href: '/' },
+      { name: 'Career', href: '/' },
+      { name: 'FAQs', href: '/' },
+      { name: 'Privacy Policy', href: '/' },
+      { name: 'Sitemap', href: '/' },
+    ],
+    services: [
+      { name: 'All Services', href: '/' },
+      { name: 'Web Design', href: '/' },
+      { name: 'Marketing', href: '/' },
+      { name: 'Content', href: '/' },
+      { name: 'Visual Branding', href: '/' },
     ],
   }
 
 const Footer = () => {
   return (
-    <div className='w-full rounded-2xl bg-[#e5eae6] sm:mb-20 p-10 drop-shadow-2xl'>
+    <div className='w-full rounded-2xl bg-[#e5eae6] sm:mb-20 p-10 drop-shadow-2xl shadow-2xl shadow-[#70fe90]'>
         <footer
       aria-labelledby="footer-heading"
       className="font-inter w-full max-w-5xl"
     >
       <h2 id="footer-heading" className="sr-only">
-        Footer
+        Alima
       </h2>
       <div className="mx-auto max-w-7xl px-2">
         <div className="flex flex-col justify-between lg:flex-row">
@@ -41,22 +58,26 @@ const Footer = () => {
               unoptimized={true}
               width={100}
               height={40}
-              src="/Logo-dark-green.svg"
+              src="/Logo-dark.svg"
               alt="logo"
               className="h-7 w-auto"
             />
             <p className="text-md max-w-xs leading-6 text-gray-700">
               Not your average component library - build faster, launch sooner.
             </p>
-            <div className="flex space-x-6 text-sm text-gray-700">
-              <div>Made with ❤️.</div>
+            <div className="flex space-x-9 md:space-x-4 items-center text-sm text-gray-700">
+              <RiInstagramFill className="w-7 h-7 duration-300 hover:-translate-y-1"/>
+              <BsTelegram className="w-6 h-6 duration-300 hover:-translate-y-1"/>
+              <IoLogoWhatsapp className="w-6 h-6 duration-300 hover:-translate-y-1"/>
+              <FaXTwitter className="w-6 h-6 duration-300 hover:-translate-y-1"/>
+              <FaLinkedinIn className="w-6 h-6 duration-300 hover:-translate-y-1"/>
             </div>
           </div>
           {/* Navigations */}
-          <div className="mt-16 grid grid-cols-2 gap-14 md:grid-cols-2 lg:mt-0 xl:col-span-2">
+          <div className="mt-16 grid grid-cols-2 gap-14 md:grid-cols-3 lg:mt-0 xl:col-span-2">
             <div className="md:mt-0">
               <h3 className="text-lg font-semibold leading-6 text-gray-900">
-                Connect
+              Quick Links
               </h3>
               <div className="mt-6 space-y-4">
                 {navigation.connect.map((item) => (
@@ -71,6 +92,25 @@ const Footer = () => {
                     </a>
                   </div>
                 ))}
+              </div>
+            </div>
+            <div>
+              <div>
+                <h3 className="text-lg font-semibold leading-6 text-gray-900">
+                  Services
+                </h3>
+                <div className="mt-6 space-y-4">
+                  {navigation.services.map((item) => (
+                    <div key={item.name}>
+                      <a
+                        href={item.href}
+                        className="text-sm font-semibold leading-6 text-gray-700 hover:text-gray-900"
+                      >
+                        {item.name}
+                      </a>
+                    </div>
+                  ))}
+                </div>
               </div>
             </div>
             <div>
