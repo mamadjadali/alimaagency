@@ -112,13 +112,13 @@ export default function NavBar() {
             </Transition>
           </Popover>
 
-          <a href="#" className="text-base font-semibold leading-6 text-[#f3f5f4]">
+          <a href="#" className="text-base font-semibold leading-6 text-[#f3f5f4] duration-150 hover:-translate-y-1">
             Features
           </a>
-          <a href="#" className="text-base font-semibold leading-6 text-[#f3f5f4]">
+          <a href="#" className="text-base font-semibold leading-6 text-[#f3f5f4] duration-150 hover:-translate-y-1">
             How it Work's
           </a>
-          <a href="#" className="text-base font-semibold leading-6 text-[#f3f5f4]">
+          <a href="#" className="text-base font-semibold leading-6 text-[#f3f5f4] duration-150 hover:-translate-y-1">
             Contact
           </a>
         </PopoverGroup>

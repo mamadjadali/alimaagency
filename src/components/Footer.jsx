@@ -86,7 +86,7 @@ const Footer = () => {
                       href={item.href}
                       target="_blank"
                       rel="noreferrer"
-                      className="text-sm font-semibold leading-6 text-gray-700 hover:text-gray-900"
+                      className="text-sm font-semibold leading-6 text-gray-700 hover:text-gray-900  duration-150"
                     >
                       {item.name}
                     </a>

@@ -34,7 +34,7 @@ const OurApproach = () => {
                 {/* Item */}
                 <div className="flex gap-x-5 ms-1">
                 {/* Icon */}
-                <div className="relative last:after:hidden after:absolute after:top-8 after:bottom-0 after:start-4 after:w-px after:-translate-x-[0.5px] after:bg-neutral-800">
+                <div className="relative last:after:hidden after:absolute after:top-8 after:bottom-0 after:start-4 after:w-px after:-translate-x-[0.5px] after:bg-[#dedbcc]">
                     <div className="relative z-10 size-8 flex justify-center items-center">
                     <span className="flex flex-shrink-0 justify-center items-center size-8 border-2 border-[#e5eae6] text-[#70fe90] font-semibold text-base uppercase rounded-full">
                         1
@@ -57,7 +57,7 @@ const OurApproach = () => {
                 {/* Item */}
                 <div className="flex gap-x-5 ms-1">
                 {/* Icon */}
-                <div className="relative last:after:hidden after:absolute after:top-8 after:bottom-0 after:start-4 after:w-px after:-translate-x-[0.5px] after:bg-neutral-800">
+                <div className="relative last:after:hidden after:absolute after:top-8 after:bottom-0 after:start-4 after:w-px after:-translate-x-[0.5px] after:bg-[#dedbcc]">
                     <div className="relative z-10 size-8 flex justify-center items-center">
                     <span className="flex flex-shrink-0 justify-center items-center size-8 border-2 border-[#e5eae6] text-[#70fe90] font-semibold text-base uppercase rounded-full">
                         2
@@ -80,7 +80,7 @@ const OurApproach = () => {
                 {/* Item */}
                 <div className="flex gap-x-5 ms-1">
                 {/* Icon */}
-                <div className="relative last:after:hidden after:absolute after:top-8 after:bottom-0 after:start-4 after:w-px after:-translate-x-[0.5px] after:bg-neutral-800">
+                <div className="relative last:after:hidden after:absolute after:top-8 after:bottom-0 after:start-4 after:w-px after:-translate-x-[0.5px] after:bg-[#dedbcc]">
                     <div className="relative z-10 size-8 flex justify-center items-center">
                     <span className="flex flex-shrink-0 justify-center items-center size-8 border-2 border-[#e5eae6] text-[#70fe90] font-semibold text-base uppercase rounded-full">
                         3
@@ -103,7 +103,7 @@ const OurApproach = () => {
                 {/* Item */}
                 <div className="flex gap-x-5 ms-1">
                 {/* Icon */}
-                <div className="relative last:after:hidden after:absolute after:top-8 after:bottom-0 after:start-4 after:w-px after:-translate-x-[0.5px] after:bg-neutral-800">
+                <div className="relative last:after:hidden after:absolute after:top-8 after:bottom-0 after:start-4 after:w-px after:-translate-x-[0.5px] after:bg-[#dedbcc]">
                     <div className="relative z-10 size-8 flex justify-center items-center">
                     <span className="flex flex-shrink-0 justify-center items-center size-8 border-2 border-[#e5eae6] text-[#70fe90] font-semibold text-base uppercase rounded-full">
                         4
