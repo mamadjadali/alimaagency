@@ -14,7 +14,7 @@ const Hero = () => {
             </h1> */}
             <BlurIn
                 word="Supercharge your Business development!"
-                className="text-3xl font-bold text-black dark:text-white"
+                className="text-3xl font-bold text-white"
               />
             {/* <p className="mt-6 text-lg leading-8 text-[#42ba5e]">
             Empowering Your Digital Presence with Innovative Design and Robust Solutions.

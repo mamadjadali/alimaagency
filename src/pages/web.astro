@@ -1,0 +1,43 @@
+---
+import BlurIn from "../components/Text/Blurin"
+import SparklesText from "../components/Text/SparklesText"
+import Layout from "../layouts/Layout.astro"
+import {AnimatedBeamDemo} from "../components/ui/Beam"
+---
+
+<title>Web Design & Development</title>
+
+<body class="bg-[#0c1e1e]">
+    <main class="mx-auto max-w-6xl">
+    <Layout>
+        <div class="h-full mt-40 m-10">
+            <div class="justify-center items-center md:p-20">
+                <BlurIn client:load
+                word="We create beautiful websites that drive business growth"
+                className="text-3xl font-normal text-[#f3f5f4]"
+                />
+                <p class="p-4 mt-10 md:p-10 text-[#dedbcc]">We are Alima agency, an award-winning web design agency focused on transparency and creativity. Our mission is to tailor innovative web design solutions that align with your vision. Understanding the importance of your brand, we specialize in custom website design and development, ensuring each project is uniquely crafted to meet your specific needs.</p>
+            </div>
+        </div>
+        <div class="m-10 h-auto bg-gradient-to-b md:bg-gradient-to-r from-[#70fe90] rounded-2xl">
+            <div class="grid md:grid-cols-2">
+                <div class="p-10">
+                    <SparklesText client:load
+                     text="Custom websites, backed by strategy" />
+                </div>
+                <div class="p-4 sm:p-10 text-[#e5eae6]">
+                    <p class="text-justify text-base font-normal">A <b>strong online presence</b> is essential to ensure the success of any business as it impacts how your audience perceives your brand. In order to <b> maximize growth</b>, a business needs to clearly differentiate itself from the vast sea of <b>competition</b>.  At Alima Agency, we specialize in designing websites that are not only visually stunning but also user-friendly, ensuring your brand makes an <b>unforgettable impression</b> .
+
+                        Our team of web designers and expert web developers is passionate about modern web design and deeply understands the psychology of user experience. This combination results in a perfect blend of <b>aesthetic</b> appeal and functional excellence, all designed to help you achieve your business objectives through your website.</p>
+                </div>
+            </div>
+            <div class="mt-4 border-t border-white pt-4 sm:mt-4 lg:mt-4"></div>
+            <p class="text-center pb-6 text-[#e5eae6]">Making the Growth effortless for Hundreds of Businesses</p>
+        </div>
+        <div class="mt-32 mb-32">
+        <h2 class="text-center text-4xl text-[#e5eae6]">Effortless Software Integration</h2>
+        <AnimatedBeamDemo client:load/>
+        </div>
+    </Layout>
+    </main>
+</body>
