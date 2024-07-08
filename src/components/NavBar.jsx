@@ -24,15 +24,15 @@ import { ChevronDownIcon, PhoneIcon, PlayCircleIcon } from '@heroicons/react/20/
 import NeubrutalismButton from './ui/NeubrutalismButton'
 
 const products = [
-  { name: 'Web Development', description: 'Get a better understanding of your traffic', href: '#', icon: CommandLineIcon },
-  { name: 'Marketing', description: 'Speak directly to your customers', href: '#', icon: CursorArrowRaysIcon },
-  { name: 'Content', description: 'Your customers’ data will be safe and secure', href: '#', icon: 	RectangleGroupIcon },
-  { name: 'Branding', description: 'Connect with third-party tools', href: '#', icon: 	PencilIcon },
-  { name: 'Advertising', description: 'Build strategic funnels that will convert', href: '#', icon: CheckBadgeIcon },
+  { name: 'Web Development', description: 'Get a better understanding of your traffic', href: '/web', icon: CommandLineIcon },
+  { name: 'Marketing', description: 'Speak directly to your customers', href: '/marketing', icon: CursorArrowRaysIcon },
+  { name: 'Content', description: 'Your customers’ data will be safe and secure', href: '/content', icon: 	RectangleGroupIcon },
+  { name: 'Branding', description: 'Connect with third-party tools', href: '/branding', icon: 	PencilIcon },
+  { name: 'Advertising', description: 'Build strategic funnels that will convert', href: '/advertising', icon: CheckBadgeIcon },
 ]
 const callsToAction = [
   { name: 'Watch demo', href: '#', icon: PlayCircleIcon },
-  { name: 'Contact sales', href: '#', icon: PhoneIcon },
+  { name: 'Contact sales', href: '/contact', icon: PhoneIcon },
 ]
 
 function classNames(...classes) {
