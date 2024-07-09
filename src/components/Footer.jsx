@@ -26,17 +26,17 @@ const navigation = {
     ],
     company: [
       { name: 'Blog', href: '/' },
-      { name: 'Career', href: '/' },
+      { name: 'Career', href: '/career' },
       { name: 'FAQs', href: '/' },
-      { name: 'Privacy Policy', href: '/' },
+      { name: 'Privacy Policy', href: '/privacypolicy' },
       { name: 'Sitemap', href: '/' },
     ],
     services: [
       { name: 'All Services', href: '/' },
-      { name: 'Web Design', href: '/' },
-      { name: 'Marketing', href: '/' },
-      { name: 'Content', href: '/' },
-      { name: 'Visual Branding', href: '/' },
+      { name: 'Web Design', href: '/web' },
+      { name: 'Marketing', href: '/marketing' },
+      { name: 'Content', href: '/content' },
+      { name: 'Visual Branding', href: '/branding' },
     ],
   }
 
@@ -66,11 +66,11 @@ const Footer = () => {
               Not your average component library - build faster, launch sooner.
             </p>
             <div className="flex space-x-9 md:space-x-4 items-center text-sm text-gray-700">
-              <RiInstagramFill className="w-7 h-7 duration-300 hover:-translate-y-1"/>
-              <BsTelegram className="w-6 h-6 duration-300 hover:-translate-y-1"/>
-              <IoLogoWhatsapp className="w-6 h-6 duration-300 hover:-translate-y-1"/>
-              <FaXTwitter className="w-6 h-6 duration-300 hover:-translate-y-1"/>
-              <FaLinkedinIn className="w-6 h-6 duration-300 hover:-translate-y-1"/>
+              <a href="https://instagram.com/alima.agency" target="_blank"><RiInstagramFill className="w-7 h-7 duration-300 hover:-translate-y-1"/></a>
+              <a href="https://t.me/alima_agency" target="_blank"><BsTelegram className="w-6 h-6 duration-300 hover:-translate-y-1"/></a>
+              <a href="" target="_blank"><IoLogoWhatsapp className="w-6 h-6 duration-300 hover:-translate-y-1"/></a>
+              <a href="https://x.com/alima_agency/" target="_blank"><FaXTwitter className="w-6 h-6 duration-300 hover:-translate-y-1"/></a>
+              <a href="" target="_blank"><FaLinkedinIn className="w-6 h-6 duration-300 hover:-translate-y-1"/></a>
             </div>
           </div>
           {/* Navigations */}
