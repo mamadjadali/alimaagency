@@ -199,7 +199,7 @@ export default function NavBar() {
                 </a>
               </div>
               <div className="py-6">
-                <NeubrutalismButton label='Talk to us' />
+                <NeubrutalismButton label='Talk to us' size='md' font='semibold'/>
               </div>
             </div>
           </div>
