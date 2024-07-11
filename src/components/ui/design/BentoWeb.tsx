@@ -1,8 +1,8 @@
 
 const BentoWeb = () => {
   return (
-    <div className='h-auto m-5'>
-        <div className='grid grid-cols-2 gap-10'>
+    <div className='h-auto m-5 mt-32'>
+        <div className='grid md:grid-cols-2 gap-10'>
             <div className='bg-gradient-to-tr p-6 from-[#70fe90] via-[#19191c] rounded-2xl border border-[#70fe90]'>
                 <h2 className="text-4xl mb-5 font-normal text-[#70fe90]">the way you want</h2>
                 <p className="text-[#e5eae6] mb-5">We support many language and frameworks making it flexible to your needs.</p>
@@ -26,7 +26,7 @@ const BentoWeb = () => {
                 />
             </div>
         </div>
-        <div className='grid grid-cols-3 gap-10 mt-[2.5rem]'>
+        <div className='grid md:grid-cols-3 gap-10 mt-[2.5rem]'>
             <div className='bg-transparent p-6 rounded-2xl border border-[#70fe90]'>
                 <h2 className="text-4xl mb-5 font-normal text-[#70fe90]">We Scale for you</h2>
                 <p className="text-[#e5eae6] mb-5">We support many language and frameworks making it flexible to your needs.</p>
