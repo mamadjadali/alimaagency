@@ -1,14 +1,12 @@
 ---
 import BlurIn from "../components/Text/Blurin"
 import SparklesText from "../components/Text/SparklesText"
-import Layout from "../layouts/Layout.astro"
-import {AnimatedBeamDemo} from "../components/ui/Beam"
-import {MacbookScrollDemo} from "../components/ui/MacbookScroll"
-import Stage from "../components/ui/Stage"
-import { TypewriterEffectSmooth } from "../components/ui/typewriter-effect"
+import { AnimatedBeamDemo } from "../components/ui/Beam"
 import BentoWeb from "../components/ui/design/BentoWeb"
 import CTA from "../components/ui/design/CTA"
 import { HeroParallaxDemo } from "../components/ui/design/Parallax"
+import Stage from "../components/ui/Stage"
+import Layout from "../layouts/Layout.astro"
 const words = [
     {
       text: "Transform",
@@ -41,7 +39,6 @@ const words = [
       <HeroParallaxDemo client:load/>
       <div class=" mx-auto max-w-6xl">
         <div class="h-full mt-4 m-10">
-            <!-- <MacbookScrollDemo client:load/> -->
             <div class="justify-center items-center md:p-20">
                 <BlurIn client:load
                 word="We create beautiful websites that drive business growth"
