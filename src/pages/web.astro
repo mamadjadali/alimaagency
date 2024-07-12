@@ -8,6 +8,7 @@ import Stage from "../components/ui/Stage"
 import { TypewriterEffectSmooth } from "../components/ui/typewriter-effect"
 import BentoWeb from "../components/ui/design/BentoWeb"
 import CTA from "../components/ui/design/CTA"
+import { HeroParallaxDemo } from "../components/ui/design/Parallax"
 const words = [
     {
       text: "Transform",
@@ -35,10 +36,12 @@ const words = [
 <title>Web Design & Development</title>
 
 <body>
-    <main class="mx-auto max-w-6xl">
+    <main class="">
     <Layout>
+      <HeroParallaxDemo client:load/>
+      <div class=" mx-auto max-w-6xl">
         <div class="h-full mt-4 m-10">
-            <MacbookScrollDemo client:load/>
+            <!-- <MacbookScrollDemo client:load/> -->
             <div class="justify-center items-center md:p-20">
                 <BlurIn client:load
                 word="We create beautiful websites that drive business growth"
@@ -70,7 +73,7 @@ const words = [
         <BentoWeb/>
         <Stage client:load />
         <CTA title="Supercharged Preline Experience" sub="Preline is a large open-source project, crafted with Tailwind CSS framework by Hmlstream."/>
-
+      </div>
     </Layout>
     </main>
     <script src="../../node_modules/preline/dist/preline.js"></script>
