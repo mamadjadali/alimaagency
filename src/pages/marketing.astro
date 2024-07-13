@@ -1,0 +1,26 @@
+---
+import { BentoGridThirdDemo } from "../components/ui/design/BentoThird";
+import Meteors from "../components/ui/meteor";
+import Layout from "../layouts/Layout.astro";
+
+
+---
+
+
+<title>Marketing & Advertising</title>
+
+<body>
+    <main class="">
+    <Layout>
+        <div class="relative flex h-[500px] w-full flex-col items-center justify-center overflow-hidden bg-background">
+            <Meteors number={50} client:load/>
+            <span class="pointer-events-none whitespace-pre-wrap bg-gradient-to-b from-black to-gray-300/80 bg-clip-text text-center text-8xl font-semibold leading-none text-transparent">
+              Meteors
+            </span>
+          </div>
+        <div class="max-w-6xl mx-auto">
+            <BentoGridThirdDemo client:load/>
+        </div>
+    </Layout>
+    </main>
+</body>
