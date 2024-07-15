@@ -2,6 +2,7 @@
 import { BentoGridThirdDemo } from "../components/ui/design/BentoThird";
 import CTA from "../components/ui/design/CTA";
 import Hero from "../components/ui/design/marketing/Hero";
+import Intro from "../components/ui/design/marketing/Intro";
 import { WobbleCardDemo } from "../components/ui/design/WobbleCard";
 import Stage from "../components/ui/Stage";
 import Layout from "../layouts/Layout.astro";
@@ -17,6 +18,7 @@ import Layout from "../layouts/Layout.astro";
     <Layout>
         <Hero/>
         <div class="max-w-6xl mx-auto">
+            <Intro/>
             <BentoGridThirdDemo client:load/>
             <WobbleCardDemo client:load/>
             <Stage client:load />
