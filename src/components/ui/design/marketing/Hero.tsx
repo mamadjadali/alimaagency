@@ -1,6 +1,12 @@
-import React from 'react'
 
-const Hero = () => {
+
+interface Props{
+  h1: string;
+  sub: string;
+  secBtnUrl: string;
+}
+
+const Hero = ({h1, sub, secBtnUrl}: Props) => {
   return (
     <div className="relative isolate px-6 pt-32 sm:pt-14 lg:px-8">
     <div className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80 pointer-events-none" aria-hidden="true">
@@ -8,11 +14,11 @@ const Hero = () => {
     </div>
     <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
       <div className="text-center">
-        <h1 className="text-4xl font-bold tracking-tight text-[#f3f5f4] sm:text-6xl">Elevate Your Brand to New Heights</h1>
-        <p className="mt-6 text-lg leading-8 text-[#e5eae6]">Unlock the true potential of your brand with our comprehensive marketing and advertising solutions.</p>
+        <h1 className="text-4xl font-bold tracking-tight text-[#f3f5f4] sm:text-6xl">{h1}</h1>
+        <p className="mt-6 text-lg leading-8 text-[#e5eae6]">{sub}</p>
         <div className="mt-10 flex items-center justify-center gap-x-6">
-          <a href="#" className="rounded-md bg-[#70fe90] px-3.5 py-2.5 text-sm font-semibold text-balck shadow-sm  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2">Get started</a>
-          <a href="#" className="text-sm font-semibold leading-6 text-[#dedbcc]">Learn more <span aria-hidden="true">→</span></a>
+          <a href="/contact" className="rounded-md bg-[#70fe90] px-3.5 py-2.5 text-sm font-semibold text-balck shadow-sm  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2">Get started</a>
+          <a href={`#${secBtnUrl}`} className="text-sm font-semibold leading-6 text-[#dedbcc]">Learn more <span aria-hidden="true">→</span></a>
         </div>
       </div>
     </div>

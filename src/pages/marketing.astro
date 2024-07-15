@@ -5,7 +5,6 @@ import Hero from "../components/ui/design/marketing/Hero";
 import Intro from "../components/ui/design/marketing/Intro";
 import Process from "../components/ui/design/marketing/Processes";
 import { WobbleCardDemo } from "../components/ui/design/WobbleCard";
-import Stage from "../components/ui/Stage";
 import Layout from "../layouts/Layout.astro";
 
 
@@ -17,13 +16,18 @@ import Layout from "../layouts/Layout.astro";
 <body>
     <main class="">
     <Layout>
-        <Hero/>
+        <Hero 
+          h1="Elevate Your Brand to New Heights"
+          sub="Unlock the true potential of your brand with our comprehensive marketing and advertising solutions."
+          secBtnUrl="intro"
+        />
         <div class="max-w-6xl mx-auto">
+          <div id="intro">
             <Intro/>
+          </div>
             <BentoGridThirdDemo client:load/>
             <WobbleCardDemo client:load/>
-            <!-- <Stage client:load /> -->
-             <Process/>
+            <Process/>
             <CTA title="Ready to Transform Your Brand?" sub=" Contact us today to start your journey towards unparalleled marketing success."/>
         </div>
     </Layout>
