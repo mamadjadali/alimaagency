@@ -4,18 +4,19 @@ import { WobbleCard } from "../../ui/wobble-card";
 
 export function WobbleCardDemo() {
   return (
-    <div className="my-32 grid grid-cols-1 lg:grid-cols-3 gap-4 max-w-7xl mx-auto w-full">
+    <>
+    <h2 className="mt-32 text-center text-4xl text-white">Create valuable content that educates and engages</h2>
+    <div className="my-16 grid grid-cols-1 lg:grid-cols-3 gap-4 max-w-7xl mx-auto w-full">
       <WobbleCard
-        containerClassName="col-span-1 lg:col-span-2 h-full bg-pink-800 min-h-[500px] lg:min-h-[300px]"
+        containerClassName="col-span-1 lg:col-span-2 h-full bg-[#dedbcc] min-h-[500px] lg:min-h-[300px]"
         className=""
       >
         <div className="max-w-xs">
-          <h2 className="text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-white">
-            Gippity AI powers the entire universe
+          <h2 className="text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-[#19191c]">
+          Create valuable content that educates and engages.
           </h2>
-          <p className="mt-4 text-left  text-base/6 text-neutral-200">
-            With over 100,000 mothly active bot users, Gippity AI is the most
-            popular AI platform for developers.
+          <p className="mt-4 text-left  text-base/6 text-[#19191c]">
+          Our content marketing services build your authority and drive organic growth. Through blogs, videos, infographics, and more, we deliver content that speaks to your audience’s needs and interests.
           </p>
         </div>
         <img
@@ -28,21 +29,19 @@ export function WobbleCardDemo() {
       </WobbleCard>
       <WobbleCard containerClassName="col-span-1 min-h-[300px]">
         <h2 className="max-w-80  text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-white">
-          No shirt, no shoes, no weapons.
+        Drive instant traffic with pay-per-click advertising.
         </h2>
         <p className="mt-4 max-w-[26rem] text-left  text-base/6 text-neutral-200">
-          If someone yells “stop!”, goes limp, or taps out, the fight is over.
+        Get immediate results with our expertly managed PPC campaigns. We design and optimize ads that attract clicks and conversions, ensuring you get the most out of your ad spend.
         </p>
       </WobbleCard>
       <WobbleCard containerClassName="col-span-1 lg:col-span-3 bg-blue-900 min-h-[500px] lg:min-h-[600px] xl:min-h-[300px]">
         <div className="max-w-sm">
           <h2 className="max-w-sm md:max-w-lg  text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-white">
-            Signup for blazing-fast cutting-edge state of the art Gippity AI
-            wrapper today!
+          Boost your search engine rankings and visibility.
           </h2>
           <p className="mt-4 max-w-[26rem] text-left  text-base/6 text-neutral-200">
-            With over 100,000 mothly active bot users, Gippity AI is the most
-            popular AI platform for developers.
+          Rise above the competition with our SEO services. We optimize your website for search engines, improving your rankings, driving organic traffic, and increasing your online presence.
           </p>
         </div>
         <img
@@ -54,5 +53,6 @@ export function WobbleCardDemo() {
         />
       </WobbleCard>
     </div>
+    </>
   );
 }
