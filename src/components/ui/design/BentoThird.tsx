@@ -5,7 +5,7 @@ export function BentoGridThirdDemo() {
   return (
     <>
     <h2 className="mt-32 text-center text-4xl text-white">Reach the right audience at the right time</h2>
-    <div className="my-16 grid grid-cols-1 lg:grid-cols-3 gap-4 max-w-7xl mx-auto w-full">
+    <div className="px-6 sm:px-6 lg:px-0 my-16 grid grid-cols-1 lg:grid-cols-3 gap-4 max-w-7xl mx-auto w-full">
       <WobbleCard containerClassName="col-span-1 min-h-[300px] bg-[#83C5BE]">
         <h2 className="max-w-80  text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-[#19191c]">
         Targeted Campaigns
@@ -35,7 +35,7 @@ export function BentoGridThirdDemo() {
         />
       </WobbleCard>
       <WobbleCard
-        containerClassName="col-span-1 lg:col-span-1 h-full bg-[#EDF6F9] min-h-[500px] lg:min-h-[300px]"
+        containerClassName="col-span-1 lg:col-span-1 h-full bg-[#EDF6F9] min-h-[300px] lg:min-h-[300px]"
         className=""
       >
         <div className="max-w-xs">
@@ -48,7 +48,7 @@ export function BentoGridThirdDemo() {
         </div>
       </WobbleCard>
       <WobbleCard
-        containerClassName="col-span-1 lg:col-span-1 h-full bg-[#FFDDD2] min-h-[500px] lg:min-h-[300px]"
+        containerClassName="col-span-1 lg:col-span-1 h-full bg-[#FFDDD2] min-h-[300px] lg:min-h-[300px]"
         className=""
       >
         <div className="max-w-xs">

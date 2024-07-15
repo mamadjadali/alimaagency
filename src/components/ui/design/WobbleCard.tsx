@@ -6,7 +6,7 @@ export function WobbleCardDemo() {
   return (
     <>
     <h2 className="mt-32 text-center text-4xl text-white">Create valuable content that educates and engages</h2>
-    <div className="my-16 grid grid-cols-1 lg:grid-cols-3 gap-4 max-w-7xl mx-auto w-full">
+    <div className="px-6 sm:px-6 lg:px-0 my-16 grid grid-cols-1 lg:grid-cols-3 gap-4 max-w-7xl mx-auto w-full">
       <WobbleCard
         containerClassName="col-span-1 lg:col-span-2 h-full bg-[#dedbcc] min-h-[500px] lg:min-h-[300px]"
         className=""
