@@ -297,10 +297,10 @@ const SkeletonFive = () => {
 };
 const items = [
   {
-    title: "AI Content Generation",
+    title: "Targeted Campaigns",
     description: (
       <span className="text-sm">
-        Experience the power of AI in generating unique content.
+        Reach the right audience at the right time with precision targeting.
       </span>
     ),
     header: <SkeletonOne />,
@@ -308,10 +308,10 @@ const items = [
     icon: <IconClipboardCopy className="h-4 w-4 text-neutral-500" />,
   },
   {
-    title: "Automated Proofreading",
+    title: "Creative Strategies",
     description: (
       <span className="text-sm">
-        Let AI handle the proofreading of your documents.
+        Unleash creativity that resonates and inspires action.
       </span>
     ),
     header: <SkeletonTwo />,
@@ -319,10 +319,10 @@ const items = [
     icon: <IconFileBroken className="h-4 w-4 text-neutral-500" />,
   },
   {
-    title: "Contextual Suggestions",
+    title: "Social Media Mastery",
     description: (
       <span className="text-sm">
-        Get AI-powered suggestions based on your writing context.
+        Dominate social media with tailored strategies that grow your following.
       </span>
     ),
     header: <SkeletonThree />,
@@ -330,10 +330,10 @@ const items = [
     icon: <IconSignature className="h-4 w-4 text-neutral-500" />,
   },
   {
-    title: "Sentiment Analysis",
+    title: "Data-Driven Insights",
     description: (
       <span className="text-sm">
-        Understand the sentiment of your text with AI analysis.
+        Harness the power of data to make informed marketing decisions.
       </span>
     ),
     header: <SkeletonFour />,
@@ -342,10 +342,10 @@ const items = [
   },
 
   {
-    title: "Text Summarization",
+    title: "Multi-Channel Integration",
     description: (
       <span className="text-sm">
-        Summarize your lengthy documents with AI technology.
+        Seamlessly integrate your marketing efforts across all channels.
       </span>
     ),
     header: <SkeletonFive />,
