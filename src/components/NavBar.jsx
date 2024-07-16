@@ -24,11 +24,11 @@ import { ChevronDownIcon, PhoneIcon, PlayCircleIcon } from '@heroicons/react/20/
 import NeubrutalismButton from './ui/NeubrutalismButton'
 
 const products = [
-  { name: 'Web Development', description: 'Get a better understanding of your traffic', href: '/web', icon: CommandLineIcon },
-  { name: 'Marketing', description: 'Speak directly to your customers', href: '/marketing', icon: CursorArrowRaysIcon },
-  { name: 'Content', description: 'Your customers’ data will be safe and secure', href: '/content', icon: 	RectangleGroupIcon },
-  { name: 'Branding', description: 'Connect with third-party tools', href: '/branding', icon: 	PencilIcon },
-  { name: 'Advertising', description: 'Build strategic funnels that will convert', href: '/advertising', icon: CheckBadgeIcon },
+  { name: 'Web Design & Development', description: 'Get a better understanding of your traffic', href: '/web', icon: CommandLineIcon },
+  { name: 'Marketing & Advertising', description: 'Speak directly to your customers', href: '/marketing', icon: CursorArrowRaysIcon },
+  { name: 'Content Creation', description: 'Your customers’ data will be safe and secure', href: '/content', icon: 	RectangleGroupIcon },
+  { name: 'Visual Branding', description: 'Connect with third-party tools', href: '/branding', icon: 	PencilIcon },
+  { name: 'Network & Security', description: 'Build strategic funnels that will convert', href: '/security', icon: CheckBadgeIcon },
 ]
 const callsToAction = [
   { name: 'Watch demo', href: '#', icon: PlayCircleIcon },
