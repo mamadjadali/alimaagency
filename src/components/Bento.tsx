@@ -21,7 +21,7 @@ const FeaturesGrid = () => {
                 {/* <Marketing /> */}
               </div>
               <div className="text-md mb-3 font-semibold text-[#0c1e1e]">
-                Marketing & Consultation
+                Marketing & Advertising
               </div>
               <div className="font-regular max-w-sm text-sm text-[#426859]">
               We assist you in finding tailored solutions for your business through personalized one-on-one sessions.
@@ -32,7 +32,7 @@ const FeaturesGrid = () => {
                 {/* <Content/> */}
               </div>
               <div className="text-md mb-3 font-semibold text-[#0c1e1e]">
-              Content
+              Content Creation
               </div>
               <div className="font-regular max-w-sm text-sm text-[#426859]">
               We create unique content, adding value, boosting organic reach, and engaging your target audience.
@@ -43,7 +43,7 @@ const FeaturesGrid = () => {
                 {/* <Analysis/> */}
               </div>
               <div className="text-md mb-3 font-semibold text-[#0c1e1e]">
-              Analysis & Report
+              Network & Security
               </div>
               <div className="font-regular max-w-sm text-sm text-[#426859]">
               Our expert strategists optimize your website to climb the rankings, attract your target audience, and increase engagement.
