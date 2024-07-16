@@ -1,0 +1,34 @@
+---
+import { BentoGridThirdDemo } from "../components/ui/design/content/BentoThird";
+import Intro from "../components/ui/design/content/Intro";
+import Process from "../components/ui/design/content/Processes";
+import { WobbleCardDemo } from "../components/ui/design/content/WobbleCard";
+import CTA from "../components/ui/design/CTA";
+import Hero from "../components/ui/design/Hero";
+import Layout from "../layouts/Layout.astro";
+
+
+---
+
+<title>Content Creation</title>
+
+<body>
+    <main class="">
+    <Layout>
+        <Hero 
+          h1="Crafting Stories That Resonate"
+          sub=" From captivating blogs and engaging videos to insightful infographics and persuasive copy, we bring your brand’s story to life."
+          secBtnUrl="intro"
+        />
+        <div class="max-w-6xl mx-auto">
+          <div id="intro">
+            <Intro/>
+          </div>
+            <BentoGridThirdDemo client:load/>
+            <WobbleCardDemo client:load/>
+            <Process/>
+            <CTA title="Ready to Captivate Your Audience?" sub="Let’s create content that resonates and inspires. Contact us today to start your journey towards compelling content creation."/>
+        </div>
+    </Layout>
+    </main>
+</body>

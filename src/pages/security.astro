@@ -1,0 +1,34 @@
+---
+import CTA from "../components/ui/design/CTA";
+import Hero from "../components/ui/design/Hero";
+import { BentoGridThirdDemo } from "../components/ui/design/security/BentoThird";
+import Intro from "../components/ui/design/security/Intro";
+import Process from "../components/ui/design/security/Processes";
+import { WobbleCardDemo } from "../components/ui/design/security/WobbleCard";
+import Layout from "../layouts/Layout.astro";
+
+
+---
+
+<title>Network & Security</title>
+
+<body>
+    <main class="">
+    <Layout>
+        <Hero 
+          h1="Secure, Reliable, and Efficient"
+          sub="From network design and management to cybersecurity strategies and compliance, we safeguard your digital assets and enhance your operational efficiency."
+          secBtnUrl="intro"
+        />
+        <div class="max-w-6xl mx-auto">
+          <div id="intro">
+            <Intro/>
+          </div>
+            <BentoGridThirdDemo client:load/>
+            <WobbleCardDemo client:load/>
+            <Process/>
+            <CTA title="Ready to Secure Your Network?" sub="Let’s fortify your business against digital threats. Contact us today to start your journey towards secure and efficient networking."/>
+        </div>
+    </Layout>
+    </main>
+</body>

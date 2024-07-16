@@ -1,0 +1,34 @@
+---
+import { BentoGridThirdDemo } from "../components/ui/design/branding/BentoThird";
+import Intro from "../components/ui/design/branding/Intro";
+import Process from "../components/ui/design/branding/Processes";
+import { WobbleCardDemo } from "../components/ui/design/branding/WobbleCard";
+import CTA from "../components/ui/design/CTA";
+import Hero from "../components/ui/design/Hero";
+import Layout from "../layouts/Layout.astro";
+
+
+---
+
+<title>Visual Branding</title>
+
+<body>
+    <main class="">
+    <Layout>
+        <Hero 
+          h1="Shape Your Brand’s Identity"
+          sub="In a world full of brands, make yours unforgettable"
+          secBtnUrl="intro"
+        />
+        <div class="max-w-6xl mx-auto">
+          <div id="intro">
+            <Intro/>
+          </div>
+            <BentoGridThirdDemo client:load/>
+            <WobbleCardDemo client:load/>
+            <Process/>
+            <CTA title="Ready to Elevate Your Brand?" sub="Let’s create a brand that stands out and connects. Contact us today to start your journey towards a stronger, more memorable brand identity."/>
+        </div>
+    </Layout>
+    </main>
+</body>
