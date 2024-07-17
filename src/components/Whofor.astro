@@ -2,7 +2,7 @@
 import { WobbleCard } from "./ui/wobble-card";
 ---
 
-<section class="py-24">
+<section class="md:py-24">
     <div class="px-2 sm:px-6 lg:px-0 my-16 grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-7xl mx-auto w-full">
         <WobbleCard client:load
           containerClassName="col-span-1 lg:col-span-1 h-full bg-[#008081] min-h-[500px] lg:min-h-[800px]"
@@ -17,11 +17,11 @@ import { WobbleCard } from "./ui/wobble-card";
             </p>
           </div>
           <img
-            src="/freedom.svg"
+            src="/start.svg"
             width={500}
             height={500}
             alt="Brand Strategy"
-            class="hidden md:block absolute -right-4 lg:-right-[0%] -bottom-20 object-contain"
+            class="hidden md:block absolute -right-4 lg:-right-[0%] -bottom-10 object-contain"
           />
           </WobbleCard>
         <WobbleCard client:load
@@ -37,11 +37,11 @@ import { WobbleCard } from "./ui/wobble-card";
             </p>
           </div>
           <img
-            src="/freedom.svg"
+            src="/upgrade.svg"
             width={500}
             height={500}
             alt="Brand Strategy"
-            class="hidden md:block absolute -right-4 lg:-right-[0%] -bottom-20 object-contain"
+            class="hidden md:block absolute -right-4 lg:-right-[0%] -bottom-16 object-contain"
           />
           </WobbleCard>
     </div>
