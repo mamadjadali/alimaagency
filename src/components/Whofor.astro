@@ -1,45 +1,49 @@
 ---
-
+import { WobbleCard } from "./ui/wobble-card";
 ---
 
-<section class="px-4 py-24 mx-auto max-w-7xl">
-    <div class="grid items-center grid-cols-1 mb-24 md:grid-cols-2 gap-y-10 md:gap-y-32 gap-x-10 md:gap-x-24">
-        <div>
-            <h2 class="mb-8 text-2xl  font-normal tracking-tight text-center text-[#dedbcc] md:leading-tight sm:text-left md:text-4xl cursor-pointer inline-block">
-                <!-- {t("services.branding")} -->
-                Just Started Your Business and Need a Strong Digital Presence<span class="text-[#70fe90]"> ??</span>
+<section class="py-24">
+    <div class="px-2 sm:px-6 lg:px-0 my-16 grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-7xl mx-auto w-full">
+        <WobbleCard client:load
+          containerClassName="col-span-1 lg:col-span-1 h-full bg-[#008081] min-h-[500px] lg:min-h-[800px]"
+          className=""
+        >
+          <div class="max-w-lg">
+            <h2 class="text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-[#19191c]">
+                Just Started Your Business and Need a Strong Digital Presence ?
             </h2>
-            <p class="mb-5 text-base text-center text-[#f3f5f4] sm:text-left md:text-lg">
-                <!-- {t("services.b_desc")} -->
-                Embarking on a new business venture is exhilarating, but establishing a strong digital footprint is crucial for success in today's competitive market. Our comprehensive services are tailored to help new entrepreneurs like you create a professional and impactful online presence. From designing a captivating website to developing a cohesive brand identity, we provide all the tools you need to attract and engage your target audience from the very beginning. Let us be your partner in building a solid foundation for your business, ensuring you stand out and thrive in the digital landscape.            </p>
-        </div>
-        <div class="w-full h-full rounded-2xl shadow-2xl shadow-[#EAE2B7]">
-            <img
-                src="/start.svg"
-                alt=""
-                class="w-full rounded-2xl"
-            />
-        </div>
-    </div>
-    <br/>
-    <br/>
-    <br/>
-    <div class="grid flex-col-reverse items-center grid-cols-1 md:grid-cols-2 gap-y-10 md:gap-y-32 gap-x-10 md:gap-x-24">
-        <div class="order-none md:order-2">
-            <h2 class="mb-8 text-2xl font-normal tracking-tight text-center text-[#dedbcc] md:leading-tight sm:text-left md:text-4xl cursor-pointer inline-block">
-                <!-- {t("services.web")} -->
-                Looking to Upgrade Your Existing Business and Enhance Your Digital Strategy<span class="text-[#70fe90]"> ?!</span>
+            <p class="mt-4 text-justify  text-base/6 text-[#19191c]">
+                Embarking on a new business venture is exhilarating, but establishing a strong digital footprint is crucial for success in today's competitive market. Our comprehensive services are tailored to help new entrepreneurs like you create a professional and impactful online presence. From designing a captivating website to developing a cohesive brand identity, we provide all the tools you need to attract and engage your target audience from the very beginning. Let us be your partner in building a solid foundation for your business, ensuring you stand out and thrive in the digital landscape.
+            </p>
+          </div>
+          <img
+            src="/freedom.svg"
+            width={500}
+            height={500}
+            alt="Brand Strategy"
+            class="hidden md:block absolute -right-4 lg:-right-[0%] -bottom-20 object-contain"
+          />
+          </WobbleCard>
+        <WobbleCard client:load
+          containerClassName="col-span-1 lg:col-span-1 h-full bg-[#008081] min-h-[500px] lg:min-h-[300px]"
+          className=""
+        >
+          <div class="max-w-lg">
+            <h2 class="text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-[#19191c]">
+                Looking to Upgrade Your Existing Business ?
             </h2>
-            <p class="mb-5 text-base text-center text-[#f3f5f4] sm:text-left md:text-lg">
-                <!-- {t("services.w_desc")} -->
-                In an ever-evolving digital world, staying ahead of the curve is essential for sustained growth and success. If your established business needs a refresh or a complete digital transformation, our expert team is here to help. We specialize in revamping websites, refining brand identities, and crafting targeted advertising campaigns that resonate with your audience. By leveraging the latest technologies and trends, we ensure your business not only keeps pace but also excels in the digital realm. Elevate your brand, optimize your digital strategy, and unlock new opportunities for growth with our tailored upgrade solutions.            </p>
-        </div>
-        <div class="w-full h-auto rounded-2xl shadow-2xl shadow-[#70fe90]">
-                <img
-                    src="/upgrade.svg"
-                    alt=""
-                    class="w-full rounded-2xl"
-                />
-        </div>
+            <p class="mt-4 text-justify text-base/6 text-[#19191c]">
+                In an ever-evolving digital world, staying ahead of the curve is essential for sustained growth and success. If your established business needs a refresh or a complete digital transformation, our expert team is here to help. We specialize in revamping websites, refining brand identities, and crafting targeted advertising campaigns that resonate with your audience. By leveraging the latest technologies and trends, we ensure your business not only keeps pace but also excels in the digital realm. Elevate your brand, optimize your digital strategy, and unlock new opportunities for growth with our tailored upgrade solutions.
+            </p>
+          </div>
+          <img
+            src="/freedom.svg"
+            width={500}
+            height={500}
+            alt="Brand Strategy"
+            class="hidden md:block absolute -right-4 lg:-right-[0%] -bottom-20 object-contain"
+          />
+          </WobbleCard>
     </div>
+
 </section>
