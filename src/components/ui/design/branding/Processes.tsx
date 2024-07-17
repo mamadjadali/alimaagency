@@ -26,13 +26,13 @@ export default function Process() {
               We begin by delving deep into your brand’s essence, understanding your goals, and researching your market. Our team then crafts a unique brand identity and visual strategy that reflects your brand’s core values and differentiates you from the competition. From initial concept to final execution, we ensure every aspect of your brand is cohesive and compelling.
               </p>
             </div>
-            <div className="relative mt-16 h-80 lg:mt-8">
+            <div className="relative mt-16 h-auto lg:mt-8">
               <img
-                alt="App screenshot"
-                src="https://tailwindui.com/img/component-images/dark-project-app-screenshot.png"
-                width={1824}
-                height={1080}
-                className="absolute left-0 top-0 w-[57rem] max-w-none rounded-md bg-white/5 ring-1 ring-white/10"
+                alt="Consistency"
+                src="/beyond.svg"
+                width={600}
+                height={600}
+                className="absolute hidden sm:block top-0 max-w-none"
               />
             </div>
           </div>

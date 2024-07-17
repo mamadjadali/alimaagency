@@ -27,11 +27,11 @@ export function BentoGridThirdDemo() {
           </p>
         </div>
         <img
-          src="/linear.webp"
-          width={500}
-          height={500}
-          alt="linear demo image"
-          className="absolute -right-4 lg:-right-[40%] grayscale filter -bottom-10 object-contain rounded-2xl"
+          src="/lighthous.svg"
+          width={400}
+          height={400}
+          alt="Brand Book Development"
+          className="absolute -right-16 lg:-right-[10%] -bottom-16 md:-bottom-10 object-contain"
         />
       </WobbleCard>
       <WobbleCard
@@ -73,11 +73,11 @@ export function BentoGridThirdDemo() {
           </p>
         </div>
         <img
-          src="/linear.webp"
+          src="/collat.svg"
           width={500}
           height={500}
-          alt="linear demo image"
-          className="absolute -right-4 lg:-right-[40%] grayscale filter -bottom-10 object-contain rounded-2xl"
+          alt="Digital Collateral"
+          className="absolute -right-4 lg:-right-[0%] -bottom-14 md:-bottom-10 object-contain rounded-2xl"
         />
       </WobbleCard>
       <WobbleCard
@@ -93,11 +93,11 @@ export function BentoGridThirdDemo() {
           </p>
         </div>
         <img
-          src="/linear.webp"
-          width={500}
-          height={500}
-          alt="linear demo image"
-          className="absolute -right-4 lg:-right-[40%] grayscale filter -bottom-10 object-contain rounded-2xl"
+          src="/what.svg"
+          width={400}
+          height={400}
+          alt="Rebranding"
+          className="absolute -right-4 lg:-right-[0%] -bottom-10 object-contain"
         />
       </WobbleCard>
     </div>
