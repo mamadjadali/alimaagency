@@ -27,11 +27,11 @@ export function BentoGridThirdDemo() {
           </p>
         </div>
         <img
-          src="/linear.webp"
-          width={500}
-          height={500}
+          src="/video.svg"
+          width={400}
+          height={400}
           alt="linear demo image"
-          className="absolute -right-4 lg:-right-[40%] grayscale filter -bottom-10 object-contain rounded-2xl"
+          className="absolute -right-4 lg:right-[3%] -bottom-10 object-contain rounded-2xl"
         />
       </WobbleCard>
       <WobbleCard
@@ -73,18 +73,18 @@ export function BentoGridThirdDemo() {
           </p>
         </div>
         <img
-          src="/linear.webp"
+          src="/writing.svg"
           width={500}
           height={500}
-          alt="linear demo image"
-          className="absolute -right-4 lg:-right-[40%] grayscale filter -bottom-10 object-contain rounded-2xl"
+          alt="Copywriting"
+          className="absolute -right-24 -bottom-24 md:-bottom-10 object-contain rounded-2xl"
         />
       </WobbleCard>
       <WobbleCard
         containerClassName="col-span-1 lg:col-span-2  h-full bg-[#222023] min-h-[500px] lg:min-h-[300px]"
         className=""
       >
-        <div className="max-w-xs">
+        <div className="max-w-lg">
           <h2 className="text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-white">
           E-books and Whitepapers
           </h2>
@@ -92,13 +92,13 @@ export function BentoGridThirdDemo() {
           We produce comprehensive e-books and whitepapers that provide valuable insights and information to your audience. These long-form content pieces help you establish authority, generate leads, and educate your market.
           </p>
         </div>
-        <img
+        {/* <img
           src="/linear.webp"
           width={500}
           height={500}
           alt="linear demo image"
           className="absolute -right-4 lg:-right-[40%] grayscale filter -bottom-10 object-contain rounded-2xl"
-        />
+        /> */}
       </WobbleCard>
     </div>
     </>

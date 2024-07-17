@@ -26,13 +26,13 @@ export default function Process() {
               our content creation process is a seamless blend of creativity, strategy, and impact. We start by understanding your brand, your goals, and your audience. Our team then develops a tailored content strategy that aligns with your objectives and resonates with your audience.
               </p>
             </div>
-            <div className="relative mt-16 h-80 lg:mt-8">
+            <div className="relative sm:mt-16 h-80">
               <img
-                alt="App screenshot"
-                src="https://tailwindui.com/img/component-images/dark-project-app-screenshot.png"
-                width={1824}
-                height={1080}
-                className="absolute left-0 top-0 w-[57rem] max-w-none rounded-md bg-white/5 ring-1 ring-white/10"
+                alt="Creativity"
+                src="/creativity.svg"
+                width={600}
+                height={600}
+                className="absolute w-3/3 left-0 top-0 max-w-none"
               />
             </div>
           </div>

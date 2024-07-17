@@ -20,11 +20,11 @@ export function WobbleCardDemo() {
           </p>
         </div>
         <img
-          src="/linear.webp"
-          width={500}
-          height={500}
-          alt="linear demo image"
-          className="absolute -right-4 lg:-right-[40%] grayscale filter -bottom-10 object-contain rounded-2xl"
+          src="/seoc.svg"
+          width={400}
+          height={400}
+          alt="SEO Content"
+          className="absolute -right-4 lg:-right-[5%] -bottom-30 md:-bottom-10 object-contain rounded-2xl"
         />
       </WobbleCard>
       <WobbleCard containerClassName="col-span-1 min-h-[300px] bg-[#e3af64]">
@@ -45,11 +45,11 @@ export function WobbleCardDemo() {
           </p>
         </div>
         <img
-          src="/linear.webp"
+          src="/podcast.svg"
           width={500}
           height={500}
-          alt="linear demo image"
-          className="absolute -right-10 md:-right-[40%] lg:-right-[20%] -bottom-10 object-contain rounded-2xl"
+          alt="Podcast Production"
+          className="absolute -right-10 sm:-bottom-32 md:right-0 lg:right-[10%] object-contain rounded-2xl"
         />
       </WobbleCard>
     </div>
