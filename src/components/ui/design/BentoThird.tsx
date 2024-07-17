@@ -27,11 +27,11 @@ export function BentoGridThirdDemo() {
           </p>
         </div>
         <img
-          src="/linear.webp"
-          width={500}
-          height={500}
-          alt="linear demo image"
-          className="absolute -right-4 lg:-right-[40%] grayscale filter -bottom-10 object-contain rounded-2xl"
+          src="/idea.svg"
+          width={400}
+          height={400}
+          alt="Creative Strategies"
+          className="absolute z-0 -right-1 lg:-right-[5%] md:-bottom-10 object-contain rounded-2xl"
         />
       </WobbleCard>
       <WobbleCard
@@ -73,11 +73,11 @@ export function BentoGridThirdDemo() {
           </p>
         </div>
         <img
-          src="/linear.webp"
+          src="/mission.svg"
           width={500}
           height={500}
-          alt="linear demo image"
-          className="absolute -right-4 lg:-right-[40%] grayscale filter -bottom-10 object-contain rounded-2xl"
+          alt="Integration"
+          className="absolute -right-10 md:-right-0 -bottom-16 md:bottom-10 object-contain rounded-2xl"
         />
       </WobbleCard>
       <WobbleCard
@@ -93,11 +93,11 @@ export function BentoGridThirdDemo() {
           </p>
         </div>
         <img
-          src="/linear.webp"
-          width={500}
-          height={500}
-          alt="linear demo image"
-          className="absolute -right-4 lg:-right-[40%] grayscale filter -bottom-10 object-contain rounded-2xl"
+          src="/aplus.svg"
+          width={450}
+          height={450}
+          alt="Performance Analytics"
+          className="absolute -right-4 lg:-right-[10%] -bottom-[90px] md:-bottom-10 object-contain rounded-2xl"
         />
       </WobbleCard>
     </div>

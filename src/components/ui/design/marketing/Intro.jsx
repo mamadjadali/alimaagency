@@ -40,14 +40,11 @@ export default function Intro() {
             </div>
           </div>
           <img
-            alt="Product screenshot"
-            src="https://tailwindui.com/img/component-images/dark-project-app-screenshot.png"
-            width={2432}
-            height={1442}
-            className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0"
-            style={{
-                maskImage: `linear-gradient(to left, transparent, black 20%)`,
-            }} 
+            alt="A better workflow"
+            src="/workflow.svg"
+            width={600}
+            height={600}
+            className="max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10" 
           />
         </div>
       </div>
