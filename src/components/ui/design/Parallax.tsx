@@ -7,96 +7,96 @@ export function HeroParallaxDemo() {
 }
 export const products = [
   {
-    title: "Moonbeam",
-    link: "https://gomoonbeam.com",
+    title: "Astro",
+    link: "https://astro.build/",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/moonbeam.png",
+      "https://github.com/mamadjadali/agency-storage/blob/main/Astro.png?raw=true",
   },
   {
-    title: "Cursor",
-    link: "https://cursor.so",
+    title: "Dart",
+    link: "https://dart.dev/",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/cursor.png",
+      "https://github.com/mamadjadali/agency-storage/blob/main/Dart.png?raw=true",
   },
   {
-    title: "Rogue",
-    link: "https://userogue.com",
+    title: "Flutter",
+    link: "https://flutter.dev/",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/rogue.png",
-  },
-
-  {
-    title: "Editorially",
-    link: "https://editorially.org",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/editorially.png",
-  },
-  {
-    title: "Editrix AI",
-    link: "https://editrix.ai",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/editrix.png",
-  },
-  {
-    title: "Pixel Perfect",
-    link: "https://app.pixelperfect.quest",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/pixelperfect.png",
+      "https://github.com/mamadjadali/agency-storage/blob/main/Flutter.png?raw=true",
   },
 
   {
-    title: "Algochurn",
-    link: "https://algochurn.com",
+    title: "Go",
+    link: "https://go.dev/",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/algochurn.png",
+      "https://github.com/mamadjadali/agency-storage/blob/main/Go.png?raw=true",
   },
   {
-    title: "Aceternity UI",
-    link: "https://ui.aceternity.com",
+    title: "GSAP",
+    link: "https://gsap.com/",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/aceternityui.png",
+      "https://github.com/mamadjadali/agency-storage/blob/main/Gsap.png?raw=true",
   },
   {
-    title: "Tailwind Master Kit",
-    link: "https://tailwindmasterkit.com",
+    title: "Next",
+    link: "https://nextjs.org/",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/tailwindmasterkit.png",
-  },
-  {
-    title: "SmartBridge",
-    link: "https://smartbridgetech.com",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/smartbridge.png",
-  },
-  {
-    title: "Renderwork Studio",
-    link: "https://renderwork.studio",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/renderwork.png",
+      "https://github.com/mamadjadali/agency-storage/blob/main/Next.png?raw=true",
   },
 
   {
-    title: "Creme Digital",
-    link: "https://cremedigital.com",
+    title: "JavaScript",
+    link: "https://javascript.info/",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/cremedigital.png",
+      "https://github.com/mamadjadali/agency-storage/blob/main/js.png?raw=true",
   },
   {
-    title: "Golden Bells Academy",
-    link: "https://goldenbellsacademy.com",
+    title: "Node",
+    link: "https://nodejs.org/",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/goldenbellsacademy.png",
+      "https://github.com/mamadjadali/agency-storage/blob/main/Node.png?raw=true",
   },
   {
-    title: "Invoker Labs",
-    link: "https://invoker.lol",
+    title: "Nuxt",
+    link: "https://nuxt.com/",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/invoker.png",
+      "https://github.com/mamadjadali/agency-storage/blob/main/Nuxt.png?raw=true",
   },
   {
-    title: "E Free Invoice",
-    link: "https://efreeinvoice.com",
+    title: "Python",
+    link: "https://www.python.org/",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/efreeinvoice.png",
+      "https://github.com/mamadjadali/agency-storage/blob/main/Python.png?raw=true",
+  },
+  {
+    title: "React",
+    link: "https://react.dev/",
+    thumbnail:
+      "https://github.com/mamadjadali/agency-storage/blob/main/React.png?raw=true",
+  },
+
+  {
+    title: "Svelte",
+    link: "https://svelte.dev/",
+    thumbnail:
+      "https://github.com/mamadjadali/agency-storage/blob/main/Svelte.png?raw=true",
+  },
+  {
+    title: "Three",
+    link: "https://threejs.org/",
+    thumbnail:
+      "https://github.com/mamadjadali/agency-storage/blob/main/Three.png?raw=true",
+  },
+  {
+    title: "TypeScript",
+    link: "https://www.typescriptlang.org/",
+    thumbnail:
+      "https://github.com/mamadjadali/agency-storage/blob/main/Ts.png?raw=true",
+  },
+  {
+    title: "Rust",
+    link: "https://www.rust-lang.org/",
+    thumbnail:
+      "https://github.com/mamadjadali/agency-storage/blob/main/Rust.png?raw=true",
   },
 ];
