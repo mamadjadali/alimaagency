@@ -1,10 +1,10 @@
 {
     "site": {
-    "title": "Alima Agency",
+    "title": "",
     "description": "Here is the description of my awesome website!"
     },
     "home": {
-    "title": "Supercharge your Business development!",
+    "title": "",
     "btn": "Get Started Now!"
   }
 }

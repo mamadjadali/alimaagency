@@ -9,22 +9,21 @@ import { HeroScrollDemo } from "../components/UnleashScroll";
 import Whofor from "../components/Whofor.astro";
 import Layout from "../layouts/Layout.astro";
 
-changeLanguage("en");
 ---
 
-<html lang={i18next.language}>
+<html lang="en">
 	<head>
 		<meta charset="utf-8" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
-		<title>{t("site.title")}</title>
+		<title>Alima Agency</title>
 	</head>
 	<body>
 		<main class="mx-auto max-w-6xl">
 			<Layout>
 			<FloatingNavDemo client:load/>
-			<Hero title={t("home.title")} client:load/>
+			<Hero title="Supercharge your Business development!" client:load/>
 			<div id="features">
 				<FeaturesWithHeading />
 			</div>
