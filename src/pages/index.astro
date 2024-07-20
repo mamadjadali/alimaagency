@@ -25,8 +25,12 @@ changeLanguage("en");
 			<Layout>
 			<FloatingNavDemo client:load/>
 			<Hero title={t("home.title")} client:load/>
-			<FeaturesWithHeading />
+			<div id="features">
+				<FeaturesWithHeading />
+			</div>
+			<div id="wich">
 			<Whofor client:load/>
+		    </div>
 			<HeroScrollDemo client:load/>
 			<OurApproach/>
 			<FAQ client:load/>
