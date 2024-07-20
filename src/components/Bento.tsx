@@ -74,14 +74,16 @@ const FeaturesGrid = () => {
               </div>
             </div>
             <div className="col-span-2 sm:col-span-1 py-8 width-fit p-4 text-left bg-[#dedbcc] backdrop-blur-2xl rounded-lg">
-              <div className="mb-2 w-1 rounded-md bg-[#ffa500] p-2 text-center text-[#0c1e1e] ">
-                {/* <Advertising/> */}
+              <div className="mb-2 w-1 animate-bounce rounded-md bg-[#ffa500] p-2 text-center text-[#0c1e1e] "></div>
+              <div className='w-full text-md text-[#426859] font-semibold text-center rounded-lg p-1 border border-[#ffa500]'>
+               Web 3  "Coming soon"
               </div>
-              <div className="text-md mb-3 font-semibold text-[#0c1e1e]">
-              Advertising
+              <div className="mt-6 rounded-lg bg bg-black w-full h-20 overflow-hidden">
+              <img
+                src='/web3.png'
+                className='object-contain'
+                />
               </div>
-              <div className="font-regular max-w-sm text-sm text-[#426859]">
-              our expert team crafts cohesive and impactful advertising that resonates with your audience. Let us define your business across all channels, ensuring memorable and distinct visual branding for success.              </div>
             </div>
       </div>
     </div>
