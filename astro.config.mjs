@@ -5,7 +5,7 @@ import tailwind from "@astrojs/tailwind";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://alima.agency/",
-	base: "/",
+  site: "https://mamadjadali.github.io/",
+	base: "/alimaagency",
   integrations: [react(), tailwind(), astroI18next()]
 });
