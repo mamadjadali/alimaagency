@@ -12,7 +12,7 @@ export default function FloatingNavDemo() {
     },
     {
       name: "Features",
-      link: "/features",
+      link: "#features",
       icon: <TbAtom2 className="h-6 w-6 text-[#0c1e1e]" />,
     },
     {

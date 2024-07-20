@@ -1,4 +1,3 @@
-import Aword from './Aword';
 import { AnimatedModalDemo } from './ui/Modal';
 
 const Hero = ({title}) => {
