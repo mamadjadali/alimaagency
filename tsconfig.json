@@ -3,7 +3,7 @@
   "compilerOptions": {
     "jsx": "react-jsx",
     "jsxImportSource": "react",
-    "sourceMap": true,
+    "sourceMap": false,
     "inlineSources": true,
     "noEmit": true,
     "module": "ESNext",
