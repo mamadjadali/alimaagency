@@ -1,4 +1,3 @@
-import { Fragment, useState } from 'react'
 import {
   Dialog,
   DialogPanel,
@@ -11,16 +10,17 @@ import {
   PopoverPanel,
   Transition,
 } from '@headlessui/react'
+import { ChevronDownIcon, PhoneIcon, PlayCircleIcon } from '@heroicons/react/20/solid'
 import {
-  CheckBadgeIcon,
   Bars3Icon,
+  CheckBadgeIcon,
   CommandLineIcon,
   CursorArrowRaysIcon,
-  RectangleGroupIcon,
   PencilIcon,
+  RectangleGroupIcon,
   XMarkIcon,
 } from '@heroicons/react/24/outline'
-import { ChevronDownIcon, PhoneIcon, PlayCircleIcon } from '@heroicons/react/20/solid'
+import { useState } from 'react'
 import NeubrutalismButton from './ui/NeubrutalismButton'
 
 const products = [

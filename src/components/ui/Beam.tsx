@@ -4,9 +4,6 @@ import React, { forwardRef, useRef } from "react";
 
 import { cn } from "../../../utils/cn";
 import { AnimatedBeam } from "./AnimatedBeam";
-import { IoLogoVercel } from "react-icons/io5";
-import { SiCloudflare } from "react-icons/si";
-import { FaAmazon } from "react-icons/fa";
 
 const Circle = forwardRef<
   HTMLDivElement,
