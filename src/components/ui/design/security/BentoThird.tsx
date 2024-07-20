@@ -15,7 +15,7 @@ export function BentoGridThirdDemo() {
         </p>
       </WobbleCard>
       <WobbleCard
-        containerClassName="col-span-1 lg:col-span-2 h-full bg-[#15063f] min-h-[500px] lg:min-h-[300px]"
+        containerClassName="col-span-1 lg:col-span-2 h-full bg-[#15063f] min-h-[300px] lg:min-h-[300px]"
         className=""
       >
         <div className="max-w-xs">
@@ -27,11 +27,11 @@ export function BentoGridThirdDemo() {
           </p>
         </div>
         <img
-          src="/linear.webp"
-          width={500}
-          height={500}
-          alt="linear demo image"
-          className="absolute -right-4 lg:-right-[40%] grayscale filter -bottom-10 object-contain rounded-2xl"
+          src="/mon.svg"
+          width={400}
+          height={400}
+          alt="Management"
+          className="hidden md:block absolute -right-4 lg:-right-[10%]  md:-bottom-10 object-contain rounded-2xl"
         />
       </WobbleCard>
       <WobbleCard
@@ -73,15 +73,15 @@ export function BentoGridThirdDemo() {
           </p>
         </div>
         <img
-          src="/linear.webp"
+          src="/rm.svg"
           width={500}
           height={500}
-          alt="linear demo image"
-          className="absolute -right-4 lg:-right-[40%] grayscale filter -bottom-10 object-contain rounded-2xl"
+          alt="Compliance and Risk Management"
+          className="absolute lg:-right-[0%] -bottom-20 md:-bottom-10 object-contain rounded-2xl"
         />
       </WobbleCard>
       <WobbleCard
-        containerClassName="col-span-1 lg:col-span-2  h-full bg-[#2e2365] min-h-[500px] lg:min-h-[300px]"
+        containerClassName="col-span-1 lg:col-span-2  h-full bg-[#2e2365] min-h-[300px] lg:min-h-[300px]"
         className=""
       >
         <div className="max-w-xs">
@@ -93,11 +93,11 @@ export function BentoGridThirdDemo() {
           </p>
         </div>
         <img
-          src="/linear.webp"
-          width={500}
-          height={500}
+          src="/Character.svg"
+          width={200}
+          height={200}
           alt="linear demo image"
-          className="absolute -right-4 lg:-right-[40%] grayscale filter -bottom-10 object-contain rounded-2xl"
+          className="hidden md:block absolute -right-4 lg:right-[10%] md:-bottom-[340px] object-contain rounded-2xl"
         />
       </WobbleCard>
     </div>
