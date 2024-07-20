@@ -1,5 +1,4 @@
 ---
-import i18next, { t } from "i18next";
 import FeaturesWithHeading from "../../components/Bento";
 import FAQ from "../../components/FAQ";
 import FloatingNavDemo from "../../components/Float";
@@ -11,19 +10,19 @@ import Layout from "../../layouts/Layout.astro";
 
 ---
 
-<html lang={i18next.language}>
+<html lang="fa">
 	<head>
 		<meta charset="utf-8" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
-		<title>{t("site.title")}</title>
+		<title>عـلـیما</title>
 	</head>
 	<body>
 		<main class="mx-auto max-w-6xl">
 			<Layout>
 			<FloatingNavDemo client:load/>
-			<Hero title={t("home.title")} client:load/>
+			<Hero title="فارسی" client:load/>
 			<div id="features">
 			<FeaturesWithHeading />
 		    </div>
