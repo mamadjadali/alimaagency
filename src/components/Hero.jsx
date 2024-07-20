@@ -1,7 +1,7 @@
-import Aword from './Aword'
-import { AnimatedModalDemo } from './ui/Modal'
+import Aword from './Aword';
+import { AnimatedModalDemo } from './ui/Modal';
 
-const Hero = () => {
+const Hero = ({title}) => {
   return (
     <>
     <Aword className='absolute max-w-xs sm:max-w-7xl inset-0 z-0 m-auto blur-md'/>
@@ -10,7 +10,7 @@ const Hero = () => {
           <div className="text-center">
             <h1
                 className="text-6xl font-bold text-white"
-            >Supercharge your Business development!</h1>
+            >{title}</h1>
             <AnimatedModalDemo />
             <div className="mt-10 flex items-center justify-center gap-x-6">
             </div>

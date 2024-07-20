@@ -1,15 +1,15 @@
 ---
 import i18next, { t, changeLanguage } from "i18next";
-import FeaturesWithHeading from "../components/Bento";
-import FAQ from "../components/FAQ";
-import FloatingNavDemo from "../components/Float";
-import Hero from "../components/Hero";
-import OurApproach from "../components/OurApproach";
-import { HeroScrollDemo } from "../components/UnleashScroll";
-import Whofor from "../components/Whofor.astro";
-import Layout from "../layouts/Layout.astro";
+import FeaturesWithHeading from "../../components/Bento";
+import FAQ from "../../components/FAQ";
+import FloatingNavDemo from "../../components/Float";
+import Hero from "../../components/Hero";
+import OurApproach from "../../components/OurApproach";
+import { HeroScrollDemo } from "../../components/UnleashScroll";
+import Whofor from "../../components/Whofor.astro";
+import Layout from "../../layouts/Layout.astro";
 
-changeLanguage("en");
+changeLanguage("fa");
 ---
 
 <html lang={i18next.language}>
@@ -32,6 +32,6 @@ changeLanguage("en");
 			<FAQ client:load/>
 			</Layout>
 		</main>
-		<script src="../../node_modules/preline/dist/preline.js"></script>
+		<script src="../../../node_modules/preline/dist/preline.js"></script>
 	</body>
 </html>

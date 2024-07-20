@@ -1,4 +1,3 @@
-import { Advertising, Analysis, Branding, Content, Marketing, WebDev } from '../assets/BentoIcons'
 
 
 const FeaturesGrid = () => {
@@ -100,7 +99,7 @@ const FeaturesWithHeading = () => {
         SyntaxUI is a free to use, customizable, and highly customizable UI
         component library.
       </p>
-      <FeaturesGrid />
+      <FeaturesGrid/>
     </div>
   )
 }
