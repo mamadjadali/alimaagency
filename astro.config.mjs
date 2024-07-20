@@ -4,7 +4,7 @@ import { defineConfig } from 'astro/config';
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://mamadjadali.github.io/",
-	base: "/alimaagency",
+  site: "https://mamadjadali.github.io/alimaagency/",
+	base: "/",
   integrations: [react(), tailwind()]
 });
