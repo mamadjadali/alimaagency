@@ -5,10 +5,14 @@ import { Input } from "./ui/input";
 import { Label } from "./ui/label";
 
 export function Form() {
-  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
-    e.preventDefault();
-    console.log("Form submitted");
-  };
+  // const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+  //   e.preventDefault();
+  //   console.log("Form submitted");
+  // };
+  // const [state, handleSubmit] = useForm("mjkbgvlp");
+  // if (state.succeeded) {
+  //     return <p>Thanks for joining!</p>;
+  // }
   return (
     <div className="max-w-xl w-full mx-auto rounded-none md:rounded-2xl p-4 md:p-8 shadow-input bg-transparent">
       <h2 className="font-semibold text-center text-xl text-neutral-200">
@@ -19,24 +23,24 @@ export function Form() {
       In the vast expanse of the digital landscape, your vision deserves to shine brightly. We believe in the power of collaboration and the magic that happens when ideas come to life. Whether you're just starting your journey or looking to elevate your established brand, we're here to help you every step of the way. 
       </p>
 
-      <form className="my-8" onSubmit={handleSubmit}>
+      <form className="my-8" name="contact" action="https://formspree.io/f/mjkbgvlp" method="POST">
         <div className="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-2 mb-4">
           <LabelInputContainer>
             <Label htmlFor="firstname">Name</Label>
-            <Input id="firstname" placeholder="Tyler" type="text" />
+            <Input id="firstname" name="name" placeholder="Tyler" type="text" />
           </LabelInputContainer>
           <LabelInputContainer>
             <Label htmlFor="lastname">Bussiness name</Label>
-            <Input id="Company" placeholder="Alima Agency" type="text" />
+            <Input id="Company" name="company" placeholder="Alima Agency" type="text" />
           </LabelInputContainer>
         </div>
         <LabelInputContainer className="mb-4">
           <Label htmlFor="email">Email Address</Label>
-          <Input id="email" placeholder="Alima.Agency@gmail.com" type="email" />
+          <Input id="email" name="email" placeholder="Alima.Agency@gmail.com" type="email" />
         </LabelInputContainer>
         <LabelInputContainer className="mb-4">
           <Label htmlFor="tel">Phone</Label>
-          <Input id="phone" placeholder="0921919191" type="tel" />
+          <Input id="phone" name="phone" placeholder="0921919191" type="tel" />
         </LabelInputContainer>
         <LabelInputContainer className="mb-8">
           <Label htmlFor="text">Message</Label>
@@ -44,6 +48,7 @@ export function Form() {
             id="message"
             placeholder="Describe what you want from us."
             type="text"
+            name="message"
             className="h-28"
           />
         </LabelInputContainer>
