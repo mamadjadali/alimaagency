@@ -19,6 +19,7 @@ import {
   PencilIcon,
   RectangleGroupIcon,
   XMarkIcon,
+  CubeIcon
 } from '@heroicons/react/24/outline'
 import { useState } from 'react'
 import NeubrutalismButton from './ui/NeubrutalismButton'
@@ -29,6 +30,7 @@ const products = [
   { name: 'Content Creation', description: 'Your customers’ data will be safe and secure', href: '/content', icon: 	RectangleGroupIcon },
   { name: 'Visual Branding', description: 'Connect with third-party tools', href: '/branding', icon: 	PencilIcon },
   { name: 'Network & Security', description: 'Build strategic funnels that will convert', href: '/security', icon: CheckBadgeIcon },
+  { name: '3D & Animation', description: 'Build strategic funnels that will convert', href: '/animation', icon: CubeIcon },
 ]
 const callsToAction = [
   { name: 'Watch demo', href: '#', icon: PlayCircleIcon },
