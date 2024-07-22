@@ -36,7 +36,7 @@ const Anime = () => {
         <section className='clip_path_container absolute inset-0 bg-white mt-[100vh]'>
             <div className='w-screen h-screen absolute'>
                 <video preload='none' muted loop autoPlay className='w-full h-full object-cover'>
-                    <source src='./3d.mp4' type='video/mp4' />
+                    <source src='/3d.mp4' type='video/mp4' />
                     browser does not support
                 </video>
             </div>
