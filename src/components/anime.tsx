@@ -46,7 +46,7 @@ const Anime = () => {
                     <span className='hero_title relative -bottom-40'>Coming Soon</span>
                 </h1>
                 <div className='flex justify-between items-end w-full'>
-                    <div>
+                    <div className="hidden md:block">
                         <p className='leading-none text-[40px] sm:text-[2vw] overflow-hidden'>
                             <span className='hero_subtitle -bottom-40 relative'>3D Modeling &</span>
                         </p>
