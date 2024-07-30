@@ -116,7 +116,7 @@ export function AnimatedBeamDemo() {
 
 const Icons = {
   notion: () => (
-    <svg stroke="currentColor" fill="#fff" strokeWidth="0" viewBox="0 0 512 512" height="200px" width="200px" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="m256 48 240 416H16z"></path></svg>
+    <svg stroke="currentColor" fill="#fff" strokeWidth="0" viewBox="0 0 512 512" height="200px" width="200px" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="m256 48 240 416H16z"></path></svg>
   ),
   openai: () => (
     <svg width="105" height="100" viewBox="0 0 105 100" fill="none" xmlns="http://www.w3.org/2000/svg">
