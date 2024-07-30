@@ -14,7 +14,7 @@ const Hero = ({title}) => {
         <div className="relative z-10 mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
           <div className="text-center">
             <h1
-                className="text-6xl font-bold text-white"
+                className="text-[3rem] md:text-[4rem] font-bold text-white"
             >{title}</h1>
             <AnimatedModalDemo />
             <div className="mt-10 flex items-center justify-center gap-x-6">
