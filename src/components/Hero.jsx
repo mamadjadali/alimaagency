@@ -5,10 +5,10 @@ const Hero = ({title}) => {
     <>
     {/* <Aword className='absolute max-w-xs sm:max-w-7xl inset-0 z-0 m-auto blur-md'/> */}
     <img
-    src='/Alima.png'
+    src='/Alima.svg'
     width={700}
     height={700}
-    className='absolute max-w-xs sm:max-w-7xl inset-0 z-0 m-auto'
+    className='absolute sm:max-w-7xl inset-0 z-0 m-auto'
     />
     <div className="relative isolate px-6 pt-32 md:pt-24 lg:px-8">
         <div className="relative z-10 mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
