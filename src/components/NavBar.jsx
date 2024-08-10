@@ -33,7 +33,7 @@ const products = [
   { name: '3D & Animation', description: 'Build strategic funnels that will convert', href: '/animation', icon: CubeIcon },
 ]
 const callsToAction = [
-  { name: 'Watch demo', href: '#', icon: PlayCircleIcon },
+  // { name: 'Watch demo', href: '#', icon: PlayCircleIcon },
   { name: 'Contact sales', href: '/contact', icon: PhoneIcon },
 ]
 
@@ -125,11 +125,13 @@ export default function NavBar() {
           </a>
         </PopoverGroup>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
+        <a href='/contact'>
         <button className="group/button rounded-lg bg-[#f3f5f4] text-[#0c1e1e]">
             <span className="block -translate-x-1 -translate-y-1 rounded-lg border-2 border-[#222222] bg-[#70fe90] px-4 py-1 text-sm font-bold tracking-tight transition-all group-hover/button:-translate-x-2 group-hover/button:-translate-y-2 group-active/button:translate-x-0 group-active/button:translate-y-0">
                 Talk to us
             </span>
          </button>
+         </a>
         </div>
       </nav>
       <Dialog className="lg:hidden" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
@@ -160,7 +162,7 @@ export default function NavBar() {
                   {({ open }) => (
                     <>
                       <DisclosureButton className="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 duration-300 text-gray-900 hover:text-[#f3f5f4] hover:bg-[#426859]">
-                        Product
+                        Service`s
                         <ChevronDownIcon
                           className={classNames(open ? 'rotate-180' : '', 'h-5 w-5 flex-none')}
                           aria-hidden="true"
@@ -182,26 +184,28 @@ export default function NavBar() {
                   )}
                 </Disclosure>
                 <a
-                  href="#"
+                  href="/#wich"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 duration-300 text-gray-900 hover:text-[#f3f5f4] hover:bg-[#426859]"
                 >
-                  Features
+                  How it Work's
                 </a>
                 <a
-                  href="#"
+                  href="/#features"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 duration-300 text-gray-900 hover:text-[#f3f5f4] hover:bg-[#426859]"
                 >
-                  Marketplace
+                  What we Do ??
                 </a>
-                <a
-                  href="#"
+                {/* <a
+                  href="/about"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 duration-300 text-gray-900 hover:text-[#f3f5f4] hover:bg-[#426859]"
                 >
-                  Company
-                </a>
+                  About us
+                </a> */}
               </div>
               <div className="py-6">
+                <a href='/contact'>
                 <NeubrutalismButton label='Talk to us' size='md' font='semibold'/>
+                </a>
               </div>
             </div>
           </div>
