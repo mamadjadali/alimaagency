@@ -35,10 +35,14 @@ const Anime = () => {
     <main className='bg-white h-screen overflow-scroll no-scrollbar relative flex justify-center'>
         <section className='clip_path_container absolute inset-0 bg-white mt-[100vh]'>
             <div className='w-screen h-screen absolute'>
-                <video preload='none' muted loop autoPlay className='w-full h-full object-cover'>
+                {/* <video preload='none' muted loop autoPlay >
                     <source src='/3d.mp4' type='video/mp4' />
                     browser does not support
-                </video>
+                </video> */}
+                <img 
+                src="/superman.jpg"
+                className='w-full h-full lg:h-fit object-cover'
+                />
             </div>
 
             <div className='mx-auto max-w-screen-2xl relative z-10 text-white px-10 py-28 h-full w-full text-center sm:text-left flex flex-col items-center sm:items-start justify-between'>
