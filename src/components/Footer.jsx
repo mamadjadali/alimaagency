@@ -8,26 +8,26 @@ const navigation = {
     connect: [
       {
         name: 'Home',
-        href: 'https://twitter.com/justansub',
+        href: '/',
       },
       {
         name: 'Our Work',
-        href: 'https://twitter.com/justansub',
+        href: '/portfolio',
       },
       {
         name: 'About',
-        href: 'https://www.youtube.com/@SpeedyBrand-SEO',
+        href: '/about',
       },
       {
         name: 'Contact',
-        href: 'https://www.linkedin.com/company/speedy-brand-inc/',
+        href: '/contact',
       },
-      { name: 'Book Meeting', href: '' },
+      { name: 'Book Meeting', href: '/contact' },
     ],
     company: [
       { name: 'Blog', href: '/' },
       { name: 'Career', href: '/career' },
-      { name: 'FAQs', href: '/' },
+      { name: 'FAQs', href: '/#faq' },
       { name: 'Privacy Policy', href: '/privacypolicy' },
       { name: 'Sitemap', href: '/' },
     ],
