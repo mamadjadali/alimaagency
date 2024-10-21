@@ -2,7 +2,11 @@
 const OurApproach = () => {
   return (
     <>
-    <img className="hidden lg:block absolute z-0 pointer-events-none right-0 lg:mt-[36rem] lg:opacity-100 w-[550px]" src="/pitch.png"/>
+    <img 
+        className="hidden lg:block absolute z-0 pointer-events-none right-0 lg:mt-[36rem] lg:opacity-100 w-[550px]"
+        src="/pitch.png"
+        alt="pitch"
+        />
         <div className="mb-32">
         {/* Approach */}
         <div className="max-w-5xl px-4 xl:px-0 py-10 lg:pt-20 lg:pb-20 mx-auto">

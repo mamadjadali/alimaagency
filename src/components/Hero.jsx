@@ -8,6 +8,7 @@ const Hero = ({title}) => {
     src='/Alima.svg'
     width={700}
     height={700}
+    alt='A sign'
     className='absolute sm:max-w-7xl inset-0 z-0 m-auto'
     />
     <div className="relative isolate px-6 pt-28 md:pt-24 lg:px-8">

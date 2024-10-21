@@ -17,7 +17,7 @@ export function HeroScrollDemo() {
         }
       >
         <img
-          src={`/Cover.png`}
+          src={`/cover.svg`}
           alt="hero"
           height={720}
           width={1400}
