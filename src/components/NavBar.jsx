@@ -50,7 +50,12 @@ export default function NavBar() {
         <div className="flex lg:flex-1">
           <a href="/" className="-m-1.5 p-1.5">
             <span className="sr-only">Alima</span>
-            <img className="hidden md:block h-8 w-auto" src="/Logo-dark-green.svg" alt="logo" />
+            <img 
+              className="hidden md:block h-8 w-auto"
+              src="/Logo-dark-green.svg" 
+              width={179}
+              height={37}
+              alt="logo" />
           </a>
         </div>
         <div className="flex lg:hidden">

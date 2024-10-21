@@ -50,6 +50,10 @@ const FeaturesGrid = () => {
               <div className='mt-6  rounded-md bg-[#0c1e1e] w-full h-48 md:h-[60%]'>
               <img
                 src='/chart.svg'
+                width={651}
+                height={580}
+                draggable="false"
+                alt="network and security"
                 className='object-contain h-full'
                 />
               </div>
@@ -68,6 +72,10 @@ const FeaturesGrid = () => {
               <div className='rounded-md bg-[#0c1e1e] w-72 lg:w-72 h-48 lg:h-auto overflow-hidden'>
                 <img
                 src='/hi.svg'
+                width={1838}
+                height={1082}
+                draggable="false"
+                alt="visual branding"
                 className='object-fill h-full'
                 />
               </div>
@@ -80,6 +88,10 @@ const FeaturesGrid = () => {
               <div className="mt-6 rounded-lg bg bg-black w-full h-20 overflow-hidden">
               <img
                 src='/web3.png'
+                width={1530}
+                height={918}
+                draggable="false"
+                alt="Web3"
                 className='object-contain'
                 />
               </div>

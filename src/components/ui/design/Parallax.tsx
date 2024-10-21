@@ -9,93 +9,93 @@ export const products = [
     title: "Astro",
     link: "https://astro.build/",
     thumbnail:
-      "https://github.com/mamadjadali/agency-storage/blob/main/Astro.png?raw=true",
+      "/astro.svg",
   },
   {
     title: "Dart",
     link: "https://dart.dev/",
     thumbnail:
-      "https://github.com/mamadjadali/agency-storage/blob/main/Dart.png?raw=true",
+      "/dart.svg",
   },
   {
     title: "Flutter",
     link: "https://flutter.dev/",
     thumbnail:
-      "https://github.com/mamadjadali/agency-storage/blob/main/Flutter.png?raw=true",
+      "/flutter.svg",
   },
 
   {
     title: "Go",
     link: "https://go.dev/",
     thumbnail:
-      "https://github.com/mamadjadali/agency-storage/blob/main/Go.png?raw=true",
+      "/go.svg",
   },
   {
     title: "GSAP",
     link: "https://gsap.com/",
     thumbnail:
-      "https://github.com/mamadjadali/agency-storage/blob/main/Gsap.png?raw=true",
+      "/gsap.svg",
   },
   {
     title: "Next",
     link: "https://nextjs.org/",
     thumbnail:
-      "https://github.com/mamadjadali/agency-storage/blob/main/Next.png?raw=true",
+      "/Next.svg",
   },
 
   {
     title: "JavaScript",
     link: "https://javascript.info/",
     thumbnail:
-      "https://github.com/mamadjadali/agency-storage/blob/main/js.png?raw=true",
+      "/js.svg",
   },
   {
     title: "Node",
     link: "https://nodejs.org/",
     thumbnail:
-      "https://github.com/mamadjadali/agency-storage/blob/main/Node.png?raw=true",
+      "/node.svg",
   },
   {
     title: "Nuxt",
     link: "https://nuxt.com/",
     thumbnail:
-      "https://github.com/mamadjadali/agency-storage/blob/main/Nuxt.png?raw=true",
+      "/nuxt.svg",
   },
   {
     title: "Python",
     link: "https://www.python.org/",
     thumbnail:
-      "https://github.com/mamadjadali/agency-storage/blob/main/Python.png?raw=true",
+      "/python.svg",
   },
   {
     title: "React",
     link: "https://react.dev/",
     thumbnail:
-      "https://github.com/mamadjadali/agency-storage/blob/main/React.png?raw=true",
+      "/react.svg",
   },
 
   {
     title: "Svelte",
     link: "https://svelte.dev/",
     thumbnail:
-      "https://github.com/mamadjadali/agency-storage/blob/main/Svelte.png?raw=true",
+      "/svelte.svg",
   },
   {
     title: "Three",
     link: "https://threejs.org/",
     thumbnail:
-      "https://github.com/mamadjadali/agency-storage/blob/main/Three.png?raw=true",
+      "/three.svg",
   },
   {
     title: "TypeScript",
     link: "https://www.typescriptlang.org/",
     thumbnail:
-      "https://github.com/mamadjadali/agency-storage/blob/main/Ts.png?raw=true",
+      "/ts.svg",
   },
   {
     title: "Rust",
     link: "https://www.rust-lang.org/",
     thumbnail:
-      "https://github.com/mamadjadali/agency-storage/blob/main/Rust.png?raw=true",
+      "/rust.svg",
   },
 ];

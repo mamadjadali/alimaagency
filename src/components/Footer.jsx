@@ -66,11 +66,11 @@ const Footer = () => {
               Not your average component library - build faster, launch sooner.
             </p>
             <div className="flex space-x-9 md:space-x-4 items-center text-sm text-gray-700">
-              <a href="https://instagram.com/alima.agency" target="_blank"><RiInstagramFill className="w-7 h-7 duration-300 hover:-translate-y-1"/></a>
-              <a href="https://t.me/alima_agency" target="_blank"><BsTelegram className="w-6 h-6 duration-300 hover:-translate-y-1"/></a>
-              <a href="" target="_blank"><IoLogoWhatsapp className="w-6 h-6 duration-300 hover:-translate-y-1"/></a>
-              <a href="https://x.com/alima_agency/" target="_blank"><FaXTwitter className="w-6 h-6 duration-300 hover:-translate-y-1"/></a>
-              <a href="" target="_blank"><FaLinkedinIn className="w-6 h-6 duration-300 hover:-translate-y-1"/></a>
+              <a href="https://instagram.com/alima.agency" aria-label="Instagram" target="_blank"><RiInstagramFill className="w-7 h-7 duration-300 hover:-translate-y-1"/></a>
+              <a href="https://t.me/alima_agency" aria-label="Telegram" target="_blank"><BsTelegram className="w-6 h-6 duration-300 hover:-translate-y-1"/></a>
+              <a href="" aria-label="whatsapp" target="_blank"><IoLogoWhatsapp className="w-6 h-6 duration-300 hover:-translate-y-1"/></a>
+              <a href="https://x.com/alima_agency/" aria-label="X (twitter)" target="_blank"><FaXTwitter className="w-6 h-6 duration-300 hover:-translate-y-1"/></a>
+              <a href="" aria-label="Linkedin" target="_blank"><FaLinkedinIn className="w-6 h-6 duration-300 hover:-translate-y-1"/></a>
             </div>
           </div>
           {/* Navigations */}

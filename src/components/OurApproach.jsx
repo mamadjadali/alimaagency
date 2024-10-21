@@ -16,7 +16,13 @@ const OurApproach = () => {
             {/* Grid */}
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 lg:items-center">
             <div className="aspect-w-16 aspect-h-9 lg:aspect-none">
-                <img className="w-full object-cover rounded-xl" src="/MacBook.png" alt="Image Description"/>
+                <img 
+                    className="w-full object-cover rounded-xl" 
+                    src="/MacBook.png"
+                    width={480}
+                    height={600}
+                    draggable="false"
+                    alt="our approach"/>
             </div>
             {/* End Col */}
 
